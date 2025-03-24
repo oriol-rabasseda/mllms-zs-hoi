@@ -1,0 +1,6002 @@
+{
+    "001": [
+        {
+            "obj_class": "airplane",
+            "action": "board",
+            "action_gerund": "boarding",
+            "action_synonyms": "board, get_on",
+            "action_def": "get on board of (trains, buses, ships, aircraft, etc.)",
+            "synset": "board.v.01"
+        }
+    ],
+    "002": [
+        {
+            "obj_class": "airplane",
+            "action": "direct",
+            "action_gerund": "directing",
+            "action_synonyms": "lead, take, direct, conduct, guide",
+            "action_def": "to show or point out the way for; directing the traffic of",
+            "synset": "lead.v.01"
+        }
+    ],
+    "003": [
+        {
+            "obj_class": "airplane",
+            "action": "exit",
+            "action_gerund": "exiting",
+            "action_synonyms": "exit, go_out, get_out, leave",
+            "action_def": "move out of or depart from",
+            "synset": "exit.v.01"
+        }
+    ],
+    "004": [
+        {
+            "obj_class": "airplane",
+            "action": "fly",
+            "action_gerund": "flying",
+            "action_synonyms": "fly, aviate, pilot",
+            "action_def": "operate an airplane",
+            "synset": "fly.v.03"
+        }
+    ],
+    "005": [
+        {
+            "obj_class": "airplane",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "006": [
+        {
+            "obj_class": "airplane",
+            "action": "load",
+            "action_gerund": "loading",
+            "action_synonyms": "load, lade, laden, load_up",
+            "action_def": "(a person/worker) put things in/on (the target object)",
+            "synset": "load.v.01"
+        }
+    ],
+    "007": [
+        {
+            "obj_class": "airplane",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "be carried or travel on or in a vehicle",
+            "synset": "ride.v.02"
+        }
+    ],
+    "008": [
+        {
+            "obj_class": "airplane",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "009": [
+        {
+            "obj_class": "airplane",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "010": [
+        {
+            "obj_class": "airplane",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "011": [
+        {
+            "obj_class": "bicycle",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "012": [
+        {
+            "obj_class": "bicycle",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "013": [
+        {
+            "obj_class": "bicycle",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "014": [
+        {
+            "obj_class": "bicycle",
+            "action": "jump",
+            "action_gerund": "jumping",
+            "action_synonyms": "jump, leap",
+            "action_def": "cause to jump or leap",
+            "synset": "jump.v.11"
+        }
+    ],
+    "015": [
+        {
+            "obj_class": "bicycle",
+            "action": "hop_on",
+            "action_gerund": "hopping_on",
+            "action_synonyms": "hop_on, mount, mount_up, get_on, jump_on, climb_on, bestride",
+            "action_def": "climb up onto; get up on the back of",
+            "synset": "hop_on.v.01"
+        }
+    ],
+    "016": [
+        {
+            "obj_class": "bicycle",
+            "action": "park",
+            "action_gerund": "parking",
+            "action_synonyms": "park",
+            "action_def": "place temporarily",
+            "synset": "park.v.01"
+        }
+    ],
+    "017": [
+        {
+            "obj_class": "bicycle",
+            "action": "push",
+            "action_gerund": "pushing",
+            "action_synonyms": "push, force",
+            "action_def": "move with force, \"He pushed the table into a corner\"",
+            "synset": "push.v.01"
+        }
+    ],
+    "018": [
+        {
+            "obj_class": "bicycle",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "019": [
+        {
+            "obj_class": "bicycle",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "sit on and control a vehicle",
+            "synset": "ride.v.10"
+        }
+    ],
+    "020": [
+        {
+            "obj_class": "bicycle",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "021": [
+        {
+            "obj_class": "bicycle",
+            "action": "straddle",
+            "action_gerund": "straddling",
+            "action_synonyms": "straddle",
+            "action_def": "sit or stand astride of",
+            "synset": "straddle.v.01"
+        }
+    ],
+    "022": [
+        {
+            "obj_class": "bicycle",
+            "action": "walk",
+            "action_gerund": "walking",
+            "action_synonyms": "walk",
+            "action_def": "to accompany on foot; to cause to move by walking",
+            "synset": "walk.v.09"
+        }
+    ],
+    "023": [
+        {
+            "obj_class": "bicycle",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "024": [
+        {
+            "obj_class": "bicycle",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "025": [
+        {
+            "obj_class": "bird",
+            "action": "chase",
+            "action_gerund": "chasing",
+            "action_synonyms": "chase, chase_after, trail, tail, tag, give_chase, dog, go_after, track",
+            "action_def": "go after with the intent to catch",
+            "synset": "chase.v.01"
+        }
+    ],
+    "026": [
+        {
+            "obj_class": "bird",
+            "action": "feed",
+            "action_gerund": "feeding",
+            "action_synonyms": "feed, give",
+            "action_def": "give food to",
+            "synset": "feed.v.02"
+        }
+    ],
+    "027": [
+        {
+            "obj_class": "bird",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "028": [
+        {
+            "obj_class": "bird",
+            "action": "pet",
+            "action_gerund": "petting",
+            "action_synonyms": "pet",
+            "action_def": "stroke or caress gently",
+            "synset": "pet.v.01"
+        }
+    ],
+    "029": [
+        {
+            "obj_class": "bird",
+            "action": "release",
+            "action_gerund": "releasing",
+            "action_synonyms": "let_go_of, let_go, release, relinquish",
+            "action_def": "release, as from one's grip",
+            "synset": "let_go_of.v.01"
+        }
+    ],
+    "030": [
+        {
+            "obj_class": "bird",
+            "action": "watch",
+            "action_gerund": "watching",
+            "action_synonyms": "watch",
+            "action_def": "watch with appreciation; to look at for an amount of time",
+            "synset": "watch.v.01"
+        }
+    ],
+    "031": [
+        {
+            "obj_class": "bird",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "032": [
+        {
+            "obj_class": "boat",
+            "action": "board",
+            "action_gerund": "boarding",
+            "action_synonyms": "board, get_on",
+            "action_def": "get on board of (trains, buses, ships, aircraft, etc.)",
+            "synset": "board.v.01"
+        }
+    ],
+    "033": [
+        {
+            "obj_class": "boat",
+            "action": "drive",
+            "action_gerund": "driving",
+            "action_synonyms": "drive",
+            "action_def": "operate or control a vehicle",
+            "synset": "drive.v.01"
+        }
+    ],
+    "034": [
+        {
+            "obj_class": "boat",
+            "action": "exit",
+            "action_gerund": "exiting",
+            "action_synonyms": "exit, go_out, get_out, leave",
+            "action_def": "move out of or depart from",
+            "synset": "exit.v.01"
+        }
+    ],
+    "035": [
+        {
+            "obj_class": "boat",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "036": [
+        {
+            "obj_class": "boat",
+            "action": "jump",
+            "action_gerund": "jumping",
+            "action_synonyms": "jump, leap",
+            "action_def": "cause to jump or leap",
+            "synset": "jump.v.11"
+        }
+    ],
+    "037": [
+        {
+            "obj_class": "boat",
+            "action": "launch",
+            "action_gerund": "launching",
+            "action_synonyms": "launch",
+            "action_def": "to put (a boat or ship) on the water",
+            "synset": "launch.v.02"
+        }
+    ],
+    "038": [
+        {
+            "obj_class": "boat",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "039": [
+        {
+            "obj_class": "boat",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "be carried or travel on or in a vehicle",
+            "synset": "ride.v.02"
+        }
+    ],
+    "040": [
+        {
+            "obj_class": "boat",
+            "action": "row",
+            "action_gerund": "rowing",
+            "action_synonyms": "row",
+            "action_def": "propel with oars",
+            "synset": "row.v.01"
+        }
+    ],
+    "041": [
+        {
+            "obj_class": "boat",
+            "action": "sail",
+            "action_gerund": "sailing",
+            "action_synonyms": "sail",
+            "action_def": "travel on water propelled by wind",
+            "synset": "sail.v.03"
+        }
+    ],
+    "042": [
+        {
+            "obj_class": "boat",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "043": [
+        {
+            "obj_class": "boat",
+            "action": "stand_on",
+            "action_gerund": "standing_on",
+            "action_synonyms": "stand, stand_up",
+            "action_def": "be standing; be upright",
+            "synset": "stand.v.01"
+        }
+    ],
+    "044": [
+        {
+            "obj_class": "boat",
+            "action": "tie",
+            "action_gerund": "tying",
+            "action_synonyms": "tie, bind",
+            "action_def": "fasten or secure with a rope, string, or cord",
+            "synset": "tie.v.01"
+        }
+    ],
+    "045": [
+        {
+            "obj_class": "boat",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "046": [
+        {
+            "obj_class": "boat",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "047": [
+        {
+            "obj_class": "bottle",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "048": [
+        {
+            "obj_class": "bottle",
+            "action": "drink_with",
+            "action_gerund": "drinking_with",
+            "action_synonyms": "drink, imbibe",
+            "action_def": "take in liquids",
+            "synset": "drink.v.01"
+        }
+    ],
+    "049": [
+        {
+            "obj_class": "bottle",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "050": [
+        {
+            "obj_class": "bottle",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "051": [
+        {
+            "obj_class": "bottle",
+            "action": "lick",
+            "action_gerund": "licking",
+            "action_synonyms": "lick, lap",
+            "action_def": "pass the tongue over",
+            "synset": "lick.v.02"
+        }
+    ],
+    "052": [
+        {
+            "obj_class": "bottle",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "053": [
+        {
+            "obj_class": "bottle",
+            "action": "pour",
+            "action_gerund": "pouring",
+            "action_synonyms": "decant, pour, pour_out",
+            "action_def": "pour out",
+            "synset": "decant.v.01"
+        }
+    ],
+    "054": [
+        {
+            "obj_class": "bottle",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "055": [
+        {
+            "obj_class": "bus",
+            "action": "board",
+            "action_gerund": "boarding",
+            "action_synonyms": "board, get_on",
+            "action_def": "get on board of (trains, buses, ships, aircraft, etc.)",
+            "synset": "board.v.01"
+        }
+    ],
+    "056": [
+        {
+            "obj_class": "bus",
+            "action": "direct",
+            "action_gerund": "directing",
+            "action_synonyms": "lead, take, direct, conduct, guide",
+            "action_def": "to show or point out the way for; directing the traffic of",
+            "synset": "lead.v.01"
+        }
+    ],
+    "057": [
+        {
+            "obj_class": "bus",
+            "action": "drive",
+            "action_gerund": "driving",
+            "action_synonyms": "drive",
+            "action_def": "operate or control a vehicle",
+            "synset": "drive.v.01"
+        }
+    ],
+    "058": [
+        {
+            "obj_class": "bus",
+            "action": "exit",
+            "action_gerund": "exiting",
+            "action_synonyms": "exit, go_out, get_out, leave",
+            "action_def": "move out of or depart from",
+            "synset": "exit.v.01"
+        }
+    ],
+    "059": [
+        {
+            "obj_class": "bus",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "060": [
+        {
+            "obj_class": "bus",
+            "action": "load",
+            "action_gerund": "loading",
+            "action_synonyms": "load, lade, laden, load_up",
+            "action_def": "(a person/worker) put things in/on (the target object)",
+            "synset": "load.v.01"
+        }
+    ],
+    "061": [
+        {
+            "obj_class": "bus",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "be carried or travel on or in a vehicle",
+            "synset": "ride.v.02"
+        }
+    ],
+    "062": [
+        {
+            "obj_class": "bus",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "063": [
+        {
+            "obj_class": "bus",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "064": [
+        {
+            "obj_class": "bus",
+            "action": "wave",
+            "action_gerund": "waving",
+            "action_synonyms": "beckon, wave",
+            "action_def": "signal with the hands or nod",
+            "synset": "beckon.v.01"
+        }
+    ],
+    "065": [
+        {
+            "obj_class": "bus",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "066": [
+        {
+            "obj_class": "car",
+            "action": "board",
+            "action_gerund": "boarding",
+            "action_synonyms": "board, get_on",
+            "action_def": "get on board of (trains, buses, ships, aircraft, etc.)",
+            "synset": "board.v.01"
+        }
+    ],
+    "067": [
+        {
+            "obj_class": "car",
+            "action": "direct",
+            "action_gerund": "directing",
+            "action_synonyms": "lead, take, direct, conduct, guide",
+            "action_def": "to show or point out the way for; directing the traffic of",
+            "synset": "lead.v.01"
+        }
+    ],
+    "068": [
+        {
+            "obj_class": "car",
+            "action": "drive",
+            "action_gerund": "driving",
+            "action_synonyms": "drive",
+            "action_def": "operate or control a vehicle",
+            "synset": "drive.v.01"
+        }
+    ],
+    "069": [
+        {
+            "obj_class": "car",
+            "action": "hose",
+            "action_gerund": "hosing",
+            "action_synonyms": "hose, hose_down",
+            "action_def": "water with a hose",
+            "synset": "hose.v.01"
+        }
+    ],
+    "070": [
+        {
+            "obj_class": "car",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "071": [
+        {
+            "obj_class": "car",
+            "action": "jump",
+            "action_gerund": "jumping",
+            "action_synonyms": "jump, leap",
+            "action_def": "cause to jump or leap",
+            "synset": "jump.v.11"
+        }
+    ],
+    "072": [
+        {
+            "obj_class": "car",
+            "action": "load",
+            "action_gerund": "loading",
+            "action_synonyms": "load, lade, laden, load_up",
+            "action_def": "(a person/worker) put things in/on (the target object)",
+            "synset": "load.v.01"
+        }
+    ],
+    "073": [
+        {
+            "obj_class": "car",
+            "action": "park",
+            "action_gerund": "parking",
+            "action_synonyms": "park",
+            "action_def": "place temporarily",
+            "synset": "park.v.01"
+        }
+    ],
+    "074": [
+        {
+            "obj_class": "car",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "be carried or travel on or in a vehicle",
+            "synset": "ride.v.02"
+        }
+    ],
+    "075": [
+        {
+            "obj_class": "car",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "076": [
+        {
+            "obj_class": "car",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "077": [
+        {
+            "obj_class": "cat",
+            "action": "dry",
+            "action_gerund": "drying",
+            "action_synonyms": "dry, dry_out",
+            "action_def": "remove the moisture from and make dry",
+            "synset": "dry.v.01"
+        }
+    ],
+    "078": [
+        {
+            "obj_class": "cat",
+            "action": "feed",
+            "action_gerund": "feeding",
+            "action_synonyms": "feed, give",
+            "action_def": "give food to",
+            "synset": "feed.v.02"
+        }
+    ],
+    "079": [
+        {
+            "obj_class": "cat",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "080": [
+        {
+            "obj_class": "cat",
+            "action": "hug",
+            "action_gerund": "hugging",
+            "action_synonyms": "embrace, hug, bosom, squeeze",
+            "action_def": "squeeze (someone) tightly in your arms, usually with fondness",
+            "synset": "embrace.v.02"
+        }
+    ],
+    "081": [
+        {
+            "obj_class": "cat",
+            "action": "kiss",
+            "action_gerund": "kissing",
+            "action_synonyms": "snog, kiss, buss, osculate",
+            "action_def": "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.",
+            "synset": "snog.v.01"
+        }
+    ],
+    "082": [
+        {
+            "obj_class": "cat",
+            "action": "pet",
+            "action_gerund": "petting",
+            "action_synonyms": "pet",
+            "action_def": "stroke or caress gently",
+            "synset": "pet.v.01"
+        }
+    ],
+    "083": [
+        {
+            "obj_class": "cat",
+            "action": "scratch",
+            "action_gerund": "scratching",
+            "action_synonyms": "rub, scratch, itch",
+            "action_def": "scrape or rub as if to relieve itching",
+            "synset": "rub.v.03"
+        }
+    ],
+    "084": [
+        {
+            "obj_class": "cat",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, lave",
+            "action_def": "cleanse (one's body) with soap and water",
+            "synset": "wash.v.02"
+        }
+    ],
+    "085": [
+        {
+            "obj_class": "cat",
+            "action": "chase",
+            "action_gerund": "chasing",
+            "action_synonyms": "chase, chase_after, trail, tail, tag, give_chase, dog, go_after, track",
+            "action_def": "go after with the intent to catch",
+            "synset": "chase.v.01"
+        }
+    ],
+    "086": [
+        {
+            "obj_class": "cat",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "087": [
+        {
+            "obj_class": "chair",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "088": [
+        {
+            "obj_class": "chair",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "089": [
+        {
+            "obj_class": "chair",
+            "action": "lie_on",
+            "action_gerund": "lying_on",
+            "action_synonyms": "lie",
+            "action_def": "be lying, be prostrate; be in a horizontal position",
+            "synset": "lie.v.02"
+        }
+    ],
+    "090": [
+        {
+            "obj_class": "chair",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "091": [
+        {
+            "obj_class": "chair",
+            "action": "stand_on",
+            "action_gerund": "standing_on",
+            "action_synonyms": "stand, stand_up",
+            "action_def": "be standing; be upright",
+            "synset": "stand.v.01"
+        }
+    ],
+    "092": [
+        {
+            "obj_class": "chair",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "093": [
+        {
+            "obj_class": "couch",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "094": [
+        {
+            "obj_class": "couch",
+            "action": "lie_on",
+            "action_gerund": "lying_on",
+            "action_synonyms": "lie",
+            "action_def": "be lying, be prostrate; be in a horizontal position",
+            "synset": "lie.v.02"
+        }
+    ],
+    "095": [
+        {
+            "obj_class": "couch",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "096": [
+        {
+            "obj_class": "couch",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "097": [
+        {
+            "obj_class": "cow",
+            "action": "feed",
+            "action_gerund": "feeding",
+            "action_synonyms": "feed, give",
+            "action_def": "give food to",
+            "synset": "feed.v.02"
+        }
+    ],
+    "098": [
+        {
+            "obj_class": "cow",
+            "action": "herd",
+            "action_gerund": "herding",
+            "action_synonyms": "herd, crowd",
+            "action_def": "to gather and move a group of animals",
+            "synset": "herd.v.01"
+        }
+    ],
+    "099": [
+        {
+            "obj_class": "cow",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "100": [
+        {
+            "obj_class": "cow",
+            "action": "hug",
+            "action_gerund": "hugging",
+            "action_synonyms": "embrace, hug, bosom, squeeze",
+            "action_def": "squeeze (someone) tightly in your arms, usually with fondness",
+            "synset": "embrace.v.02"
+        }
+    ],
+    "101": [
+        {
+            "obj_class": "cow",
+            "action": "kiss",
+            "action_gerund": "kissing",
+            "action_synonyms": "snog, kiss, buss, osculate",
+            "action_def": "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.",
+            "synset": "snog.v.01"
+        }
+    ],
+    "102": [
+        {
+            "obj_class": "cow",
+            "action": "lasso",
+            "action_gerund": "lassoing",
+            "action_synonyms": "lasso, rope",
+            "action_def": "catch with a lasso",
+            "synset": "lasso.v.01"
+        }
+    ],
+    "103": [
+        {
+            "obj_class": "cow",
+            "action": "milk",
+            "action_gerund": "milking",
+            "action_synonyms": "milk",
+            "action_def": "take milk from female mammals",
+            "synset": "milk.v.01"
+        }
+    ],
+    "104": [
+        {
+            "obj_class": "cow",
+            "action": "pet",
+            "action_gerund": "petting",
+            "action_synonyms": "pet",
+            "action_def": "stroke or caress gently",
+            "synset": "pet.v.01"
+        }
+    ],
+    "105": [
+        {
+            "obj_class": "cow",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride, sit",
+            "action_def": "sit and travel on the back of animal, usually while controlling its motions",
+            "synset": "ride.v.01"
+        }
+    ],
+    "106": [
+        {
+            "obj_class": "cow",
+            "action": "walk",
+            "action_gerund": "walking",
+            "action_synonyms": "walk",
+            "action_def": "to accompany on foot; to cause (an animal) to go at a walk",
+            "synset": "walk.v.09"
+        }
+    ],
+    "107": [
+        {
+            "obj_class": "cow",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "108": [
+        {
+            "obj_class": "dining_table",
+            "action": "clean",
+            "action_gerund": "cleaning",
+            "action_synonyms": "clean, make_clean",
+            "action_def": "make clean by removing dirt, filth, or unwanted substances from",
+            "synset": "clean.v.01"
+        }
+    ],
+    "109": [
+        {
+            "obj_class": "dining_table",
+            "action": "eat_at",
+            "action_gerund": "eating_at",
+            "action_synonyms": "eat",
+            "action_def": "eat a meal; take a meal",
+            "synset": "eat.v.02"
+        }
+    ],
+    "110": [
+        {
+            "obj_class": "dining_table",
+            "action": "sit_at",
+            "action_gerund": "sitting_at",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "111": [
+        {
+            "obj_class": "dining_table",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "112": [
+        {
+            "obj_class": "dog",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "113": [
+        {
+            "obj_class": "dog",
+            "action": "dry",
+            "action_gerund": "drying",
+            "action_synonyms": "dry, dry_out",
+            "action_def": "remove the moisture from and make dry",
+            "synset": "dry.v.01"
+        }
+    ],
+    "114": [
+        {
+            "obj_class": "dog",
+            "action": "feed",
+            "action_gerund": "feeding",
+            "action_synonyms": "feed, give",
+            "action_def": "give food to",
+            "synset": "feed.v.02"
+        }
+    ],
+    "115": [
+        {
+            "obj_class": "dog",
+            "action": "groom",
+            "action_gerund": "grooming",
+            "action_synonyms": "dress, groom, curry",
+            "action_def": "give a neat appearance to",
+            "synset": "dress.v.15"
+        }
+    ],
+    "116": [
+        {
+            "obj_class": "dog",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "117": [
+        {
+            "obj_class": "dog",
+            "action": "hose",
+            "action_gerund": "hosing",
+            "action_synonyms": "hose, hose_down",
+            "action_def": "water with a hose",
+            "synset": "hose.v.01"
+        }
+    ],
+    "118": [
+        {
+            "obj_class": "dog",
+            "action": "hug",
+            "action_gerund": "hugging",
+            "action_synonyms": "embrace, hug, bosom, squeeze",
+            "action_def": "squeeze (someone) tightly in your arms, usually with fondness",
+            "synset": "embrace.v.02"
+        }
+    ],
+    "119": [
+        {
+            "obj_class": "dog",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "120": [
+        {
+            "obj_class": "dog",
+            "action": "kiss",
+            "action_gerund": "kissing",
+            "action_synonyms": "snog, kiss, buss, osculate",
+            "action_def": "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.",
+            "synset": "snog.v.01"
+        }
+    ],
+    "121": [
+        {
+            "obj_class": "dog",
+            "action": "pet",
+            "action_gerund": "petting",
+            "action_synonyms": "pet",
+            "action_def": "stroke or caress gently",
+            "synset": "pet.v.01"
+        }
+    ],
+    "122": [
+        {
+            "obj_class": "dog",
+            "action": "run",
+            "action_gerund": "running",
+            "action_synonyms": "run",
+            "action_def": "cause an animal to move fast",
+            "synset": "run.v.26"
+        }
+    ],
+    "123": [
+        {
+            "obj_class": "dog",
+            "action": "scratch",
+            "action_gerund": "scratching",
+            "action_synonyms": "rub, scratch, itch",
+            "action_def": "scrape or rub as if to relieve itching",
+            "synset": "rub.v.03"
+        }
+    ],
+    "124": [
+        {
+            "obj_class": "dog",
+            "action": "straddle",
+            "action_gerund": "straddling",
+            "action_synonyms": "straddle",
+            "action_def": "sit or stand astride of",
+            "synset": "straddle.v.01"
+        }
+    ],
+    "125": [
+        {
+            "obj_class": "dog",
+            "action": "train",
+            "action_gerund": "training",
+            "action_synonyms": "train",
+            "action_def": "exercise in order to prepare for an event or competition",
+            "synset": "train.v.08"
+        }
+    ],
+    "126": [
+        {
+            "obj_class": "dog",
+            "action": "walk",
+            "action_gerund": "walking",
+            "action_synonyms": "walk",
+            "action_def": "to accompany on foot; to cause (an animal) to go at a walk",
+            "synset": "walk.v.09"
+        }
+    ],
+    "127": [
+        {
+            "obj_class": "dog",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, lave",
+            "action_def": "cleanse (one's body) with soap and water",
+            "synset": "wash.v.02"
+        }
+    ],
+    "128": [
+        {
+            "obj_class": "dog",
+            "action": "chase",
+            "action_gerund": "chasing",
+            "action_synonyms": "chase, chase_after, trail, tail, tag, give_chase, dog, go_after, track",
+            "action_def": "go after with the intent to catch",
+            "synset": "chase.v.01"
+        }
+    ],
+    "129": [
+        {
+            "obj_class": "dog",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "130": [
+        {
+            "obj_class": "horse",
+            "action": "feed",
+            "action_gerund": "feeding",
+            "action_synonyms": "feed, give",
+            "action_def": "give food to",
+            "synset": "feed.v.02"
+        }
+    ],
+    "131": [
+        {
+            "obj_class": "horse",
+            "action": "groom",
+            "action_gerund": "grooming",
+            "action_synonyms": "dress, groom, curry",
+            "action_def": "give a neat appearance to",
+            "synset": "dress.v.15"
+        }
+    ],
+    "132": [
+        {
+            "obj_class": "horse",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "133": [
+        {
+            "obj_class": "horse",
+            "action": "hug",
+            "action_gerund": "hugging",
+            "action_synonyms": "embrace, hug, bosom, squeeze",
+            "action_def": "squeeze (someone) tightly in your arms, usually with fondness",
+            "synset": "embrace.v.02"
+        }
+    ],
+    "134": [
+        {
+            "obj_class": "horse",
+            "action": "jump",
+            "action_gerund": "jumping",
+            "action_synonyms": "jump, leap",
+            "action_def": "cause to jump or leap",
+            "synset": "jump.v.11"
+        }
+    ],
+    "135": [
+        {
+            "obj_class": "horse",
+            "action": "kiss",
+            "action_gerund": "kissing",
+            "action_synonyms": "snog, kiss, buss, osculate",
+            "action_def": "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.",
+            "synset": "snog.v.01"
+        }
+    ],
+    "136": [
+        {
+            "obj_class": "horse",
+            "action": "load",
+            "action_gerund": "loading",
+            "action_synonyms": "load",
+            "action_def": "(a person/worker) put (the target object) on a structure or conveyance",
+            "synset": "load.v.04"
+        }
+    ],
+    "137": [
+        {
+            "obj_class": "horse",
+            "action": "hop_on",
+            "action_gerund": "hopping_on",
+            "action_synonyms": "hop_on, mount, mount_up, get_on, jump_on, climb_on, bestride",
+            "action_def": "climb up onto; get up on the back of",
+            "synset": "hop_on.v.01"
+        }
+    ],
+    "138": [
+        {
+            "obj_class": "horse",
+            "action": "pet",
+            "action_gerund": "petting",
+            "action_synonyms": "pet",
+            "action_def": "stroke or caress gently",
+            "synset": "pet.v.01"
+        }
+    ],
+    "139": [
+        {
+            "obj_class": "horse",
+            "action": "race",
+            "action_gerund": "racing",
+            "action_synonyms": "race, run",
+            "action_def": "compete in a race",
+            "synset": "race.v.02"
+        }
+    ],
+    "140": [
+        {
+            "obj_class": "horse",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride, sit",
+            "action_def": "sit and travel on the back of animal, usually while controlling its motions",
+            "synset": "ride.v.01"
+        }
+    ],
+    "141": [
+        {
+            "obj_class": "horse",
+            "action": "run",
+            "action_gerund": "running",
+            "action_synonyms": "run",
+            "action_def": "cause an animal to move fast",
+            "synset": "run.v.26"
+        }
+    ],
+    "142": [
+        {
+            "obj_class": "horse",
+            "action": "straddle",
+            "action_gerund": "straddling",
+            "action_synonyms": "straddle",
+            "action_def": "sit or stand astride of",
+            "synset": "straddle.v.01"
+        }
+    ],
+    "143": [
+        {
+            "obj_class": "horse",
+            "action": "train",
+            "action_gerund": "training",
+            "action_synonyms": "train",
+            "action_def": "exercise in order to prepare for an event or competition",
+            "synset": "train.v.08"
+        }
+    ],
+    "144": [
+        {
+            "obj_class": "horse",
+            "action": "walk",
+            "action_gerund": "walking",
+            "action_synonyms": "walk",
+            "action_def": "to accompany on foot; to cause (an animal) to go at a walk",
+            "synset": "walk.v.09"
+        }
+    ],
+    "145": [
+        {
+            "obj_class": "horse",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, lave",
+            "action_def": "cleanse (one's body) with soap and water",
+            "synset": "wash.v.02"
+        }
+    ],
+    "146": [
+        {
+            "obj_class": "horse",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "147": [
+        {
+            "obj_class": "motorcycle",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "148": [
+        {
+            "obj_class": "motorcycle",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "149": [
+        {
+            "obj_class": "motorcycle",
+            "action": "jump",
+            "action_gerund": "jumping",
+            "action_synonyms": "jump, leap",
+            "action_def": "cause to jump or leap",
+            "synset": "jump.v.11"
+        }
+    ],
+    "150": [
+        {
+            "obj_class": "motorcycle",
+            "action": "hop_on",
+            "action_gerund": "hopping_on",
+            "action_synonyms": "hop_on, mount, mount_up, get_on, jump_on, climb_on, bestride",
+            "action_def": "climb up onto; get up on the back of",
+            "synset": "hop_on.v.01"
+        }
+    ],
+    "151": [
+        {
+            "obj_class": "motorcycle",
+            "action": "park",
+            "action_gerund": "parking",
+            "action_synonyms": "park",
+            "action_def": "place temporarily",
+            "synset": "park.v.01"
+        }
+    ],
+    "152": [
+        {
+            "obj_class": "motorcycle",
+            "action": "push",
+            "action_gerund": "pushing",
+            "action_synonyms": "push, force",
+            "action_def": "move with force, \"He pushed the table into a corner\"",
+            "synset": "push.v.01"
+        }
+    ],
+    "153": [
+        {
+            "obj_class": "motorcycle",
+            "action": "race",
+            "action_gerund": "racing",
+            "action_synonyms": "race, run",
+            "action_def": "compete in a race",
+            "synset": "race.v.02"
+        }
+    ],
+    "154": [
+        {
+            "obj_class": "motorcycle",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "sit on and control a vehicle",
+            "synset": "ride.v.10"
+        }
+    ],
+    "155": [
+        {
+            "obj_class": "motorcycle",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "156": [
+        {
+            "obj_class": "motorcycle",
+            "action": "straddle",
+            "action_gerund": "straddling",
+            "action_synonyms": "straddle",
+            "action_def": "sit or stand astride of",
+            "synset": "straddle.v.01"
+        }
+    ],
+    "157": [
+        {
+            "obj_class": "motorcycle",
+            "action": "turn",
+            "action_gerund": "turning",
+            "action_synonyms": "turn",
+            "action_def": "change orientation or direction, also in the abstract sense",
+            "synset": "turn.v.01"
+        }
+    ],
+    "158": [
+        {
+            "obj_class": "motorcycle",
+            "action": "walk",
+            "action_gerund": "walking",
+            "action_synonyms": "walk",
+            "action_def": "to accompany on foot; to cause to move by walking",
+            "synset": "walk.v.09"
+        }
+    ],
+    "159": [
+        {
+            "obj_class": "motorcycle",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "160": [
+        {
+            "obj_class": "motorcycle",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "161": [
+        {
+            "obj_class": "person",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "162": [
+        {
+            "obj_class": "person",
+            "action": "greet",
+            "action_gerund": "greeting",
+            "action_synonyms": "greet, recognize, recognise",
+            "action_def": "express greetings upon meeting someone",
+            "synset": "greet.v.01"
+        }
+    ],
+    "163": [
+        {
+            "obj_class": "person",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "holding hands;",
+            "synset": "hold.v.02"
+        }
+    ],
+    "164": [
+        {
+            "obj_class": "person",
+            "action": "hug",
+            "action_gerund": "hugging",
+            "action_synonyms": "embrace, hug, bosom, squeeze",
+            "action_def": "squeeze (someone) tightly in your arms, usually with fondness",
+            "synset": "embrace.v.02"
+        }
+    ],
+    "165": [
+        {
+            "obj_class": "person",
+            "action": "kiss",
+            "action_gerund": "kissing",
+            "action_synonyms": "snog, kiss, buss, osculate",
+            "action_def": "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.",
+            "synset": "snog.v.01"
+        }
+    ],
+    "166": [
+        {
+            "obj_class": "person",
+            "action": "stab",
+            "action_gerund": "stabbing",
+            "action_synonyms": "knife, stab",
+            "action_def": "use a knife on",
+            "synset": "knife.v.01"
+        }
+    ],
+    "167": [
+        {
+            "obj_class": "person",
+            "action": "tag",
+            "action_gerund": "tagging",
+            "action_synonyms": "tag",
+            "action_def": "touch a player while he is holding the ball",
+            "synset": "tag.v.02"
+        }
+    ],
+    "168": [
+        {
+            "obj_class": "person",
+            "action": "teach",
+            "action_gerund": "teaching",
+            "action_synonyms": "teach, learn, instruct",
+            "action_def": "to give lessons about (a particular subject) to a person or group",
+            "synset": "teach.v.01"
+        }
+    ],
+    "169": [
+        {
+            "obj_class": "person",
+            "action": "lick",
+            "action_gerund": "licking",
+            "action_synonyms": "lick, lap",
+            "action_def": "pass the tongue over",
+            "synset": "lick.v.02"
+        }
+    ],
+    "170": [
+        {
+            "obj_class": "person",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "171": [
+        {
+            "obj_class": "potted_plant",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "172": [
+        {
+            "obj_class": "potted_plant",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "173": [
+        {
+            "obj_class": "potted_plant",
+            "action": "hose",
+            "action_gerund": "hosing",
+            "action_synonyms": "hose, hose_down",
+            "action_def": "water with a hose",
+            "synset": "hose.v.01"
+        }
+    ],
+    "174": [
+        {
+            "obj_class": "potted_plant",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "175": [
+        {
+            "obj_class": "sheep",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "176": [
+        {
+            "obj_class": "sheep",
+            "action": "feed",
+            "action_gerund": "feeding",
+            "action_synonyms": "feed, give",
+            "action_def": "give food to",
+            "synset": "feed.v.02"
+        }
+    ],
+    "177": [
+        {
+            "obj_class": "sheep",
+            "action": "herd",
+            "action_gerund": "herding",
+            "action_synonyms": "herd, crowd",
+            "action_def": "to gather and move a group of animals",
+            "synset": "herd.v.01"
+        }
+    ],
+    "178": [
+        {
+            "obj_class": "sheep",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "179": [
+        {
+            "obj_class": "sheep",
+            "action": "hug",
+            "action_gerund": "hugging",
+            "action_synonyms": "embrace, hug, bosom, squeeze",
+            "action_def": "squeeze (someone) tightly in your arms, usually with fondness",
+            "synset": "embrace.v.02"
+        }
+    ],
+    "180": [
+        {
+            "obj_class": "sheep",
+            "action": "kiss",
+            "action_gerund": "kissing",
+            "action_synonyms": "snog, kiss, buss, osculate",
+            "action_def": "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.",
+            "synset": "snog.v.01"
+        }
+    ],
+    "181": [
+        {
+            "obj_class": "sheep",
+            "action": "pet",
+            "action_gerund": "petting",
+            "action_synonyms": "pet",
+            "action_def": "stroke or caress gently",
+            "synset": "pet.v.01"
+        }
+    ],
+    "182": [
+        {
+            "obj_class": "sheep",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride, sit",
+            "action_def": "sit and travel on the back of animal, usually while controlling its motions",
+            "synset": "ride.v.01"
+        }
+    ],
+    "183": [
+        {
+            "obj_class": "sheep",
+            "action": "shear",
+            "action_gerund": "shearing",
+            "action_synonyms": "fleece, shear",
+            "action_def": "shear the wool from",
+            "synset": "fleece.v.02"
+        }
+    ],
+    "184": [
+        {
+            "obj_class": "sheep",
+            "action": "walk",
+            "action_gerund": "walking",
+            "action_synonyms": "walk",
+            "action_def": "to accompany on foot; to cause (an animal) to go at a walk",
+            "synset": "walk.v.09"
+        }
+    ],
+    "185": [
+        {
+            "obj_class": "sheep",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, lave",
+            "action_def": "cleanse (one's body) with soap and water",
+            "synset": "wash.v.02"
+        }
+    ],
+    "186": [
+        {
+            "obj_class": "sheep",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "187": [
+        {
+            "obj_class": "train",
+            "action": "board",
+            "action_gerund": "boarding",
+            "action_synonyms": "board, get_on",
+            "action_def": "get on board of (trains, buses, ships, aircraft, etc.)",
+            "synset": "board.v.01"
+        }
+    ],
+    "188": [
+        {
+            "obj_class": "train",
+            "action": "drive",
+            "action_gerund": "driving",
+            "action_synonyms": "drive",
+            "action_def": "operate or control a vehicle",
+            "synset": "drive.v.01"
+        }
+    ],
+    "189": [
+        {
+            "obj_class": "train",
+            "action": "exit",
+            "action_gerund": "exiting",
+            "action_synonyms": "exit, go_out, get_out, leave",
+            "action_def": "move out of or depart from",
+            "synset": "exit.v.01"
+        }
+    ],
+    "190": [
+        {
+            "obj_class": "train",
+            "action": "load",
+            "action_gerund": "loading",
+            "action_synonyms": "load, lade, laden, load_up",
+            "action_def": "(a person/worker) put things in/on (the target object)",
+            "synset": "load.v.01"
+        }
+    ],
+    "191": [
+        {
+            "obj_class": "train",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "be carried or travel on or in a vehicle",
+            "synset": "ride.v.02"
+        }
+    ],
+    "192": [
+        {
+            "obj_class": "train",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "193": [
+        {
+            "obj_class": "train",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "194": [
+        {
+            "obj_class": "train",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "195": [
+        {
+            "obj_class": "tv",
+            "action": "control",
+            "action_gerund": "controling",
+            "action_synonyms": "operate, control",
+            "action_def": "handle and cause to function",
+            "synset": "operate.v.03"
+        }
+    ],
+    "196": [
+        {
+            "obj_class": "tv",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "197": [
+        {
+            "obj_class": "tv",
+            "action": "watch",
+            "action_gerund": "watching",
+            "action_synonyms": "watch",
+            "action_def": "to look on at",
+            "synset": "watch.v.01"
+        }
+    ],
+    "198": [
+        {
+            "obj_class": "tv",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "199": [
+        {
+            "obj_class": "apple",
+            "action": "buy",
+            "action_gerund": "buying",
+            "action_synonyms": "buy, purchase",
+            "action_def": "obtain by purchase; acquire by means of a financial transaction",
+            "synset": "buy.v.01"
+        }
+    ],
+    "200": [
+        {
+            "obj_class": "apple",
+            "action": "cut",
+            "action_gerund": "cutting",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "201": [
+        {
+            "obj_class": "apple",
+            "action": "eat",
+            "action_gerund": "eating",
+            "action_synonyms": "eat",
+            "action_def": "take in solid food",
+            "synset": "eat.v.01"
+        }
+    ],
+    "202": [
+        {
+            "obj_class": "apple",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "203": [
+        {
+            "obj_class": "apple",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "204": [
+        {
+            "obj_class": "apple",
+            "action": "peel",
+            "action_gerund": "peeling",
+            "action_synonyms": "skin, peel, pare",
+            "action_def": "strip the skin off",
+            "synset": "skin.v.04"
+        }
+    ],
+    "205": [
+        {
+            "obj_class": "apple",
+            "action": "pick",
+            "action_gerund": "picking",
+            "action_synonyms": "pick, pluck, cull",
+            "action_def": "look for and gather",
+            "synset": "pick.v.02"
+        }
+    ],
+    "206": [
+        {
+            "obj_class": "apple",
+            "action": "smell",
+            "action_gerund": "smelling",
+            "action_synonyms": "smell",
+            "action_def": "inhale the odor of; perceive by the olfactory sense",
+            "synset": "smell.v.01"
+        }
+    ],
+    "207": [
+        {
+            "obj_class": "apple",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "208": [
+        {
+            "obj_class": "apple",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "209": [
+        {
+            "obj_class": "backpack",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "210": [
+        {
+            "obj_class": "backpack",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "211": [
+        {
+            "obj_class": "backpack",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "212": [
+        {
+            "obj_class": "backpack",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "213": [
+        {
+            "obj_class": "backpack",
+            "action": "wear",
+            "action_gerund": "wearing",
+            "action_synonyms": "wear, bear",
+            "action_def": "have on one's person",
+            "synset": "wear.v.02"
+        }
+    ],
+    "214": [
+        {
+            "obj_class": "backpack",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "215": [
+        {
+            "obj_class": "banana",
+            "action": "buy",
+            "action_gerund": "buying",
+            "action_synonyms": "buy, purchase",
+            "action_def": "obtain by purchase; acquire by means of a financial transaction",
+            "synset": "buy.v.01"
+        }
+    ],
+    "216": [
+        {
+            "obj_class": "banana",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "217": [
+        {
+            "obj_class": "banana",
+            "action": "cut",
+            "action_gerund": "cutting",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "218": [
+        {
+            "obj_class": "banana",
+            "action": "eat",
+            "action_gerund": "eating",
+            "action_synonyms": "eat",
+            "action_def": "take in solid food",
+            "synset": "eat.v.01"
+        }
+    ],
+    "219": [
+        {
+            "obj_class": "banana",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "220": [
+        {
+            "obj_class": "banana",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "221": [
+        {
+            "obj_class": "banana",
+            "action": "peel",
+            "action_gerund": "peeling",
+            "action_synonyms": "skin, peel, pare",
+            "action_def": "strip the skin off",
+            "synset": "skin.v.04"
+        }
+    ],
+    "222": [
+        {
+            "obj_class": "banana",
+            "action": "pick",
+            "action_gerund": "picking",
+            "action_synonyms": "pick, pluck, cull",
+            "action_def": "look for and gather",
+            "synset": "pick.v.02"
+        }
+    ],
+    "223": [
+        {
+            "obj_class": "banana",
+            "action": "smell",
+            "action_gerund": "smelling",
+            "action_synonyms": "smell",
+            "action_def": "inhale the odor of; perceive by the olfactory sense",
+            "synset": "smell.v.01"
+        }
+    ],
+    "224": [
+        {
+            "obj_class": "banana",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "225": [
+        {
+            "obj_class": "baseball_bat",
+            "action": "break",
+            "action_gerund": "breaking",
+            "action_synonyms": "break",
+            "action_def": "destroy the integrity of; usually by force; cause to separate into pieces or fragments",
+            "synset": "break.v.05"
+        }
+    ],
+    "226": [
+        {
+            "obj_class": "baseball_bat",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "227": [
+        {
+            "obj_class": "baseball_bat",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "228": [
+        {
+            "obj_class": "baseball_bat",
+            "action": "sign",
+            "action_gerund": "signing",
+            "action_synonyms": "sign, subscribe",
+            "action_def": "mark with one's signature; write one's name (on)",
+            "synset": "sign.v.01"
+        }
+    ],
+    "229": [
+        {
+            "obj_class": "baseball_bat",
+            "action": "swing",
+            "action_gerund": "swinging",
+            "action_synonyms": "swing",
+            "action_def": "move in a curve or arc, usually with the intent of hitting",
+            "synset": "swing.v.01"
+        }
+    ],
+    "230": [
+        {
+            "obj_class": "baseball_bat",
+            "action": "throw",
+            "action_gerund": "throwing",
+            "action_synonyms": "throw",
+            "action_def": "propel through the air",
+            "synset": "throw.v.01"
+        }
+    ],
+    "231": [
+        {
+            "obj_class": "baseball_bat",
+            "action": "wield",
+            "action_gerund": "wielding",
+            "action_synonyms": "wield, handle, manage",
+            "action_def": "handle effectively",
+            "synset": "wield.v.02"
+        }
+    ],
+    "232": [
+        {
+            "obj_class": "baseball_bat",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "233": [
+        {
+            "obj_class": "baseball_glove",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "234": [
+        {
+            "obj_class": "baseball_glove",
+            "action": "wear",
+            "action_gerund": "wearing",
+            "action_synonyms": "wear, bear",
+            "action_def": "have on one's person",
+            "synset": "wear.v.02"
+        }
+    ],
+    "235": [
+        {
+            "obj_class": "baseball_glove",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "236": [
+        {
+            "obj_class": "bear",
+            "action": "feed",
+            "action_gerund": "feeding",
+            "action_synonyms": "feed, give",
+            "action_def": "give food to",
+            "synset": "feed.v.02"
+        }
+    ],
+    "237": [
+        {
+            "obj_class": "bear",
+            "action": "hunt",
+            "action_gerund": "hunting",
+            "action_synonyms": "hunt, run, hunt_down, track_down",
+            "action_def": "pursue for food or sport (as of wild animals)",
+            "synset": "hunt.v.01"
+        }
+    ],
+    "238": [
+        {
+            "obj_class": "bear",
+            "action": "watch",
+            "action_gerund": "watching",
+            "action_synonyms": "watch",
+            "action_def": "watch with appreciation; to look at for an amount of time",
+            "synset": "watch.v.01"
+        }
+    ],
+    "239": [
+        {
+            "obj_class": "bear",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "240": [
+        {
+            "obj_class": "bed",
+            "action": "clean",
+            "action_gerund": "cleaning",
+            "action_synonyms": "clean, make_clean",
+            "action_def": "make clean by removing dirt, filth, or unwanted substances from",
+            "synset": "clean.v.01"
+        }
+    ],
+    "241": [
+        {
+            "obj_class": "bed",
+            "action": "lie_on",
+            "action_gerund": "lying_on",
+            "action_synonyms": "lie",
+            "action_def": "be lying, be prostrate; be in a horizontal position",
+            "synset": "lie.v.02"
+        }
+    ],
+    "242": [
+        {
+            "obj_class": "bed",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "243": [
+        {
+            "obj_class": "bed",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "244": [
+        {
+            "obj_class": "bench",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "245": [
+        {
+            "obj_class": "bench",
+            "action": "lie_on",
+            "action_gerund": "lying_on",
+            "action_synonyms": "lie",
+            "action_def": "be lying, be prostrate; be in a horizontal position",
+            "synset": "lie.v.02"
+        }
+    ],
+    "246": [
+        {
+            "obj_class": "bench",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "247": [
+        {
+            "obj_class": "bench",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "248": [
+        {
+            "obj_class": "book",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "249": [
+        {
+            "obj_class": "book",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "250": [
+        {
+            "obj_class": "book",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "251": [
+        {
+            "obj_class": "book",
+            "action": "read",
+            "action_gerund": "reading",
+            "action_synonyms": "read",
+            "action_def": "interpret something that is written or printed",
+            "synset": "read.v.01"
+        }
+    ],
+    "252": [
+        {
+            "obj_class": "book",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "253": [
+        {
+            "obj_class": "bowl",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "254": [
+        {
+            "obj_class": "bowl",
+            "action": "stir",
+            "action_gerund": "stirring",
+            "action_synonyms": "stir",
+            "action_def": "mix or add by stirring",
+            "synset": "stir.v.08"
+        }
+    ],
+    "255": [
+        {
+            "obj_class": "bowl",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "256": [
+        {
+            "obj_class": "bowl",
+            "action": "lick",
+            "action_gerund": "licking",
+            "action_synonyms": "lick, lap",
+            "action_def": "pass the tongue over",
+            "synset": "lick.v.02"
+        }
+    ],
+    "257": [
+        {
+            "obj_class": "bowl",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "258": [
+        {
+            "obj_class": "broccoli",
+            "action": "cut",
+            "action_gerund": "cutting",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "259": [
+        {
+            "obj_class": "broccoli",
+            "action": "eat",
+            "action_gerund": "eating",
+            "action_synonyms": "eat",
+            "action_def": "take in solid food",
+            "synset": "eat.v.01"
+        }
+    ],
+    "260": [
+        {
+            "obj_class": "broccoli",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "261": [
+        {
+            "obj_class": "broccoli",
+            "action": "smell",
+            "action_gerund": "smelling",
+            "action_synonyms": "smell",
+            "action_def": "inhale the odor of; perceive by the olfactory sense",
+            "synset": "smell.v.01"
+        }
+    ],
+    "262": [
+        {
+            "obj_class": "broccoli",
+            "action": "stir",
+            "action_gerund": "stirring",
+            "action_synonyms": "stir",
+            "action_def": "mix or add by stirring",
+            "synset": "stir.v.08"
+        }
+    ],
+    "263": [
+        {
+            "obj_class": "broccoli",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "264": [
+        {
+            "obj_class": "broccoli",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "265": [
+        {
+            "obj_class": "cake",
+            "action": "blow",
+            "action_gerund": "blowing",
+            "action_synonyms": "blow",
+            "action_def": "exhale hard",
+            "synset": "blow.v.01"
+        }
+    ],
+    "266": [
+        {
+            "obj_class": "cake",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "267": [
+        {
+            "obj_class": "cake",
+            "action": "cut",
+            "action_gerund": "cutting",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "268": [
+        {
+            "obj_class": "cake",
+            "action": "eat",
+            "action_gerund": "eating",
+            "action_synonyms": "eat",
+            "action_def": "take in solid food",
+            "synset": "eat.v.01"
+        }
+    ],
+    "269": [
+        {
+            "obj_class": "cake",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "270": [
+        {
+            "obj_class": "cake",
+            "action": "light",
+            "action_gerund": "lighting",
+            "action_synonyms": "ignite, light",
+            "action_def": "cause to start burning; subject to fire or great heat",
+            "synset": "ignite.v.01"
+        }
+    ],
+    "271": [
+        {
+            "obj_class": "cake",
+            "action": "make",
+            "action_gerund": "making",
+            "action_synonyms": "produce, make, create",
+            "action_def": "create or manufacture a man-made product",
+            "synset": "produce.v.02"
+        }
+    ],
+    "272": [
+        {
+            "obj_class": "cake",
+            "action": "pick_up",
+            "action_gerund": "picking_up",
+            "action_synonyms": "pick_up",
+            "action_def": "take up by hand",
+            "synset": "pick_up.v.02"
+        }
+    ],
+    "273": [
+        {
+            "obj_class": "cake",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "274": [
+        {
+            "obj_class": "carrot",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "275": [
+        {
+            "obj_class": "carrot",
+            "action": "cook",
+            "action_gerund": "cooking",
+            "action_synonyms": "cook",
+            "action_def": "transform and make suitable for consumption by heating",
+            "synset": "cook.v.03"
+        }
+    ],
+    "276": [
+        {
+            "obj_class": "carrot",
+            "action": "cut",
+            "action_gerund": "cutting",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "277": [
+        {
+            "obj_class": "carrot",
+            "action": "eat",
+            "action_gerund": "eating",
+            "action_synonyms": "eat",
+            "action_def": "take in solid food",
+            "synset": "eat.v.01"
+        }
+    ],
+    "278": [
+        {
+            "obj_class": "carrot",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "279": [
+        {
+            "obj_class": "carrot",
+            "action": "peel",
+            "action_gerund": "peeling",
+            "action_synonyms": "skin, peel, pare",
+            "action_def": "strip the skin off",
+            "synset": "skin.v.04"
+        }
+    ],
+    "280": [
+        {
+            "obj_class": "carrot",
+            "action": "smell",
+            "action_gerund": "smelling",
+            "action_synonyms": "smell",
+            "action_def": "inhale the odor of; perceive by the olfactory sense",
+            "synset": "smell.v.01"
+        }
+    ],
+    "281": [
+        {
+            "obj_class": "carrot",
+            "action": "stir",
+            "action_gerund": "stirring",
+            "action_synonyms": "stir",
+            "action_def": "mix or add by stirring",
+            "synset": "stir.v.08"
+        }
+    ],
+    "282": [
+        {
+            "obj_class": "carrot",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "283": [
+        {
+            "obj_class": "carrot",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "284": [
+        {
+            "obj_class": "cell_phone",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "285": [
+        {
+            "obj_class": "cell_phone",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "286": [
+        {
+            "obj_class": "cell_phone",
+            "action": "read",
+            "action_gerund": "reading",
+            "action_synonyms": "read",
+            "action_def": "interpret something that is written or printed",
+            "synset": "read.v.01"
+        }
+    ],
+    "287": [
+        {
+            "obj_class": "cell_phone",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "288": [
+        {
+            "obj_class": "cell_phone",
+            "action": "talk_on",
+            "action_gerund": "talking_on",
+            "action_synonyms": "talk, speak",
+            "action_def": "exchange thoughts; talk with",
+            "synset": "talk.v.01"
+        }
+    ],
+    "289": [
+        {
+            "obj_class": "cell_phone",
+            "action": "text_on",
+            "action_gerund": "texting_on",
+            "action_synonyms": "message",
+            "action_def": "send a message",
+            "synset": "message.v.03"
+        }
+    ],
+    "290": [
+        {
+            "obj_class": "cell_phone",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "291": [
+        {
+            "obj_class": "clock",
+            "action": "check",
+            "action_gerund": "checking",
+            "action_synonyms": "determine, check, find_out, see, ascertain, watch, learn",
+            "action_def": "find out, learn, or determine with certainty, usually by making an inquiry or other effort",
+            "synset": "determine.v.08"
+        }
+    ],
+    "292": [
+        {
+            "obj_class": "clock",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "293": [
+        {
+            "obj_class": "clock",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "294": [
+        {
+            "obj_class": "clock",
+            "action": "set",
+            "action_gerund": "setting",
+            "action_synonyms": "set",
+            "action_def": "set to a certain position or cause to operate correctly",
+            "synset": "set.v.08"
+        }
+    ],
+    "295": [
+        {
+            "obj_class": "clock",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "296": [
+        {
+            "obj_class": "cup",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "297": [
+        {
+            "obj_class": "cup",
+            "action": "drink_with",
+            "action_gerund": "drinking_with",
+            "action_synonyms": "drink, imbibe",
+            "action_def": "take in liquids",
+            "synset": "drink.v.01"
+        }
+    ],
+    "298": [
+        {
+            "obj_class": "cup",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "299": [
+        {
+            "obj_class": "cup",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "300": [
+        {
+            "obj_class": "cup",
+            "action": "pour",
+            "action_gerund": "pouring",
+            "action_synonyms": "decant, pour, pour_out",
+            "action_def": "pour out",
+            "synset": "decant.v.01"
+        }
+    ],
+    "301": [
+        {
+            "obj_class": "cup",
+            "action": "sip",
+            "action_gerund": "sipping",
+            "action_synonyms": "sip",
+            "action_def": "drink in sips",
+            "synset": "sip.v.01"
+        }
+    ],
+    "302": [
+        {
+            "obj_class": "cup",
+            "action": "smell",
+            "action_gerund": "smelling",
+            "action_synonyms": "smell",
+            "action_def": "inhale the odor of; perceive by the olfactory sense",
+            "synset": "smell.v.01"
+        }
+    ],
+    "303": [
+        {
+            "obj_class": "cup",
+            "action": "fill",
+            "action_gerund": "filling",
+            "action_synonyms": "fill, fill_up, make_full",
+            "action_def": "make full, also in a metaphorical sense",
+            "synset": "fill.v.01"
+        }
+    ],
+    "304": [
+        {
+            "obj_class": "cup",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "305": [
+        {
+            "obj_class": "cup",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "306": [
+        {
+            "obj_class": "donut",
+            "action": "buy",
+            "action_gerund": "buying",
+            "action_synonyms": "buy, purchase",
+            "action_def": "obtain by purchase; acquire by means of a financial transaction",
+            "synset": "buy.v.01"
+        }
+    ],
+    "307": [
+        {
+            "obj_class": "donut",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "308": [
+        {
+            "obj_class": "donut",
+            "action": "eat",
+            "action_gerund": "eating",
+            "action_synonyms": "eat",
+            "action_def": "take in solid food",
+            "synset": "eat.v.01"
+        }
+    ],
+    "309": [
+        {
+            "obj_class": "donut",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "310": [
+        {
+            "obj_class": "donut",
+            "action": "make",
+            "action_gerund": "making",
+            "action_synonyms": "produce, make, create",
+            "action_def": "create or manufacture a man-made product",
+            "synset": "produce.v.02"
+        }
+    ],
+    "311": [
+        {
+            "obj_class": "donut",
+            "action": "pick_up",
+            "action_gerund": "picking_up",
+            "action_synonyms": "pick_up",
+            "action_def": "take up by hand",
+            "synset": "pick_up.v.02"
+        }
+    ],
+    "312": [
+        {
+            "obj_class": "donut",
+            "action": "smell",
+            "action_gerund": "smelling",
+            "action_synonyms": "smell",
+            "action_def": "inhale the odor of; perceive by the olfactory sense",
+            "synset": "smell.v.01"
+        }
+    ],
+    "313": [
+        {
+            "obj_class": "donut",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "314": [
+        {
+            "obj_class": "elephant",
+            "action": "feed",
+            "action_gerund": "feeding",
+            "action_synonyms": "feed, give",
+            "action_def": "give food to",
+            "synset": "feed.v.02"
+        }
+    ],
+    "315": [
+        {
+            "obj_class": "elephant",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "316": [
+        {
+            "obj_class": "elephant",
+            "action": "hose",
+            "action_gerund": "hosing",
+            "action_synonyms": "hose, hose_down",
+            "action_def": "water with a hose",
+            "synset": "hose.v.01"
+        }
+    ],
+    "317": [
+        {
+            "obj_class": "elephant",
+            "action": "hug",
+            "action_gerund": "hugging",
+            "action_synonyms": "embrace, hug, bosom, squeeze",
+            "action_def": "squeeze (someone) tightly in your arms, usually with fondness",
+            "synset": "embrace.v.02"
+        }
+    ],
+    "318": [
+        {
+            "obj_class": "elephant",
+            "action": "kiss",
+            "action_gerund": "kissing",
+            "action_synonyms": "snog, kiss, buss, osculate",
+            "action_def": "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.",
+            "synset": "snog.v.01"
+        }
+    ],
+    "319": [
+        {
+            "obj_class": "elephant",
+            "action": "hop_on",
+            "action_gerund": "hopping_on",
+            "action_synonyms": "hop_on, mount, mount_up, get_on, jump_on, climb_on, bestride",
+            "action_def": "climb up onto; get up on the back of",
+            "synset": "hop_on.v.01"
+        }
+    ],
+    "320": [
+        {
+            "obj_class": "elephant",
+            "action": "pet",
+            "action_gerund": "petting",
+            "action_synonyms": "pet",
+            "action_def": "stroke or caress gently",
+            "synset": "pet.v.01"
+        }
+    ],
+    "321": [
+        {
+            "obj_class": "elephant",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride, sit",
+            "action_def": "sit and travel on the back of animal, usually while controlling its motions",
+            "synset": "ride.v.01"
+        }
+    ],
+    "322": [
+        {
+            "obj_class": "elephant",
+            "action": "walk",
+            "action_gerund": "walking",
+            "action_synonyms": "walk",
+            "action_def": "to accompany on foot; to cause (an animal) to go at a walk",
+            "synset": "walk.v.09"
+        }
+    ],
+    "323": [
+        {
+            "obj_class": "elephant",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, lave",
+            "action_def": "cleanse (one's body) with soap and water",
+            "synset": "wash.v.02"
+        }
+    ],
+    "324": [
+        {
+            "obj_class": "elephant",
+            "action": "watch",
+            "action_gerund": "watching",
+            "action_synonyms": "watch",
+            "action_def": "watch with appreciation; to look at for an amount of time",
+            "synset": "watch.v.01"
+        }
+    ],
+    "325": [
+        {
+            "obj_class": "elephant",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "326": [
+        {
+            "obj_class": "fire_hydrant",
+            "action": "hug",
+            "action_gerund": "hugging",
+            "action_synonyms": "embrace, hug, bosom, squeeze",
+            "action_def": "squeeze (someone) tightly in your arms, usually with fondness",
+            "synset": "embrace.v.02"
+        }
+    ],
+    "327": [
+        {
+            "obj_class": "fire_hydrant",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "328": [
+        {
+            "obj_class": "fire_hydrant",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "329": [
+        {
+            "obj_class": "fire_hydrant",
+            "action": "paint",
+            "action_gerund": "painting",
+            "action_synonyms": "paint",
+            "action_def": "apply paint to; coat with paint",
+            "synset": "paint.v.02"
+        }
+    ],
+    "330": [
+        {
+            "obj_class": "fire_hydrant",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "331": [
+        {
+            "obj_class": "fork",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "332": [
+        {
+            "obj_class": "fork",
+            "action": "lift",
+            "action_gerund": "lifting",
+            "action_synonyms": "raise, lift, elevate, get_up, bring_up",
+            "action_def": "raise from a lower to a higher position",
+            "synset": "raise.v.02"
+        }
+    ],
+    "333": [
+        {
+            "obj_class": "fork",
+            "action": "stick",
+            "action_gerund": "sticking",
+            "action_synonyms": "stick",
+            "action_def": "pierce or penetrate or puncture with something pointed",
+            "synset": "stick.v.13"
+        }
+    ],
+    "334": [
+        {
+            "obj_class": "fork",
+            "action": "lick",
+            "action_gerund": "licking",
+            "action_synonyms": "lick, lap",
+            "action_def": "pass the tongue over",
+            "synset": "lick.v.02"
+        }
+    ],
+    "335": [
+        {
+            "obj_class": "fork",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "336": [
+        {
+            "obj_class": "fork",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "337": [
+        {
+            "obj_class": "frisbee",
+            "action": "block",
+            "action_gerund": "blocking",
+            "action_synonyms": "parry, block, deflect",
+            "action_def": "impede the movement of (an opponent or a ball)",
+            "synset": "parry.v.01"
+        }
+    ],
+    "338": [
+        {
+            "obj_class": "frisbee",
+            "action": "catch",
+            "action_gerund": "catching",
+            "action_synonyms": "catch, grab, take_hold_of",
+            "action_def": "take hold of so as to seize or restrain or stop the motion of",
+            "synset": "catch.v.04"
+        }
+    ],
+    "339": [
+        {
+            "obj_class": "frisbee",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "340": [
+        {
+            "obj_class": "frisbee",
+            "action": "spin",
+            "action_gerund": "spining",
+            "action_synonyms": "whirl, birl, spin, twirl",
+            "action_def": "cause to spin",
+            "synset": "whirl.v.02"
+        }
+    ],
+    "341": [
+        {
+            "obj_class": "frisbee",
+            "action": "throw",
+            "action_gerund": "throwing",
+            "action_synonyms": "throw",
+            "action_def": "propel through the air",
+            "synset": "throw.v.01"
+        }
+    ],
+    "342": [
+        {
+            "obj_class": "frisbee",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "343": [
+        {
+            "obj_class": "giraffe",
+            "action": "feed",
+            "action_gerund": "feeding",
+            "action_synonyms": "feed, give",
+            "action_def": "give food to",
+            "synset": "feed.v.02"
+        }
+    ],
+    "344": [
+        {
+            "obj_class": "giraffe",
+            "action": "kiss",
+            "action_gerund": "kissing",
+            "action_synonyms": "snog, kiss, buss, osculate",
+            "action_def": "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.",
+            "synset": "snog.v.01"
+        }
+    ],
+    "345": [
+        {
+            "obj_class": "giraffe",
+            "action": "pet",
+            "action_gerund": "petting",
+            "action_synonyms": "pet",
+            "action_def": "stroke or caress gently",
+            "synset": "pet.v.01"
+        }
+    ],
+    "346": [
+        {
+            "obj_class": "giraffe",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride, sit",
+            "action_def": "sit and travel on the back of animal, usually while controlling its motions",
+            "synset": "ride.v.01"
+        }
+    ],
+    "347": [
+        {
+            "obj_class": "giraffe",
+            "action": "watch",
+            "action_gerund": "watching",
+            "action_synonyms": "watch",
+            "action_def": "watch with appreciation; to look at for an amount of time",
+            "synset": "watch.v.01"
+        }
+    ],
+    "348": [
+        {
+            "obj_class": "giraffe",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "349": [
+        {
+            "obj_class": "hair_drier",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "350": [
+        {
+            "obj_class": "hair_drier",
+            "action": "operate",
+            "action_gerund": "operating",
+            "action_synonyms": "operate, control",
+            "action_def": "handle and cause to function",
+            "synset": "operate.v.03"
+        }
+    ],
+    "351": [
+        {
+            "obj_class": "hair_drier",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "352": [
+        {
+            "obj_class": "hair_drier",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "353": [
+        {
+            "obj_class": "handbag",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "354": [
+        {
+            "obj_class": "handbag",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "355": [
+        {
+            "obj_class": "handbag",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "356": [
+        {
+            "obj_class": "handbag",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "357": [
+        {
+            "obj_class": "hot_dog",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "358": [
+        {
+            "obj_class": "hot_dog",
+            "action": "cook",
+            "action_gerund": "cooking",
+            "action_synonyms": "cook",
+            "action_def": "transform and make suitable for consumption by heating",
+            "synset": "cook.v.03"
+        }
+    ],
+    "359": [
+        {
+            "obj_class": "hot_dog",
+            "action": "cut",
+            "action_gerund": "cutting",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "360": [
+        {
+            "obj_class": "hot_dog",
+            "action": "eat",
+            "action_gerund": "eating",
+            "action_synonyms": "eat",
+            "action_def": "take in solid food",
+            "synset": "eat.v.01"
+        }
+    ],
+    "361": [
+        {
+            "obj_class": "hot_dog",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "362": [
+        {
+            "obj_class": "hot_dog",
+            "action": "make",
+            "action_gerund": "making",
+            "action_synonyms": "produce, make, create",
+            "action_def": "create or manufacture a man-made product",
+            "synset": "produce.v.02"
+        }
+    ],
+    "363": [
+        {
+            "obj_class": "hot_dog",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "364": [
+        {
+            "obj_class": "keyboard",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "365": [
+        {
+            "obj_class": "keyboard",
+            "action": "clean",
+            "action_gerund": "cleaning",
+            "action_synonyms": "clean, make_clean",
+            "action_def": "make clean by removing dirt, filth, or unwanted substances from",
+            "synset": "clean.v.01"
+        }
+    ],
+    "366": [
+        {
+            "obj_class": "keyboard",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "367": [
+        {
+            "obj_class": "keyboard",
+            "action": "type_on",
+            "action_gerund": "typing_on",
+            "action_synonyms": "type, typewrite",
+            "action_def": "write by means of a keyboard with types",
+            "synset": "type.v.01"
+        }
+    ],
+    "368": [
+        {
+            "obj_class": "keyboard",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "369": [
+        {
+            "obj_class": "kite",
+            "action": "assemble",
+            "action_gerund": "assembling",
+            "action_synonyms": "assemble, piece, put_together, set_up, tack, tack_together",
+            "action_def": "create by putting components or members together",
+            "synset": "assemble.v.01"
+        }
+    ],
+    "370": [
+        {
+            "obj_class": "kite",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "371": [
+        {
+            "obj_class": "kite",
+            "action": "fly",
+            "action_gerund": "flying",
+            "action_synonyms": "fly",
+            "action_def": "cause to fly or float",
+            "synset": "fly.v.05"
+        }
+    ],
+    "372": [
+        {
+            "obj_class": "kite",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "373": [
+        {
+            "obj_class": "kite",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "374": [
+        {
+            "obj_class": "kite",
+            "action": "launch",
+            "action_gerund": "launching",
+            "action_synonyms": "launch",
+            "action_def": "to send or shoot (something) into the air",
+            "synset": "launch.v.02"
+        }
+    ],
+    "375": [
+        {
+            "obj_class": "kite",
+            "action": "pull",
+            "action_gerund": "pulling",
+            "action_synonyms": "pull",
+            "action_def": "apply force so as to cause motion towards the source of the motion",
+            "synset": "pull.v.04"
+        }
+    ],
+    "376": [
+        {
+            "obj_class": "kite",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "377": [
+        {
+            "obj_class": "knife",
+            "action": "cut_with",
+            "action_gerund": "cutting_with",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "378": [
+        {
+            "obj_class": "knife",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "379": [
+        {
+            "obj_class": "knife",
+            "action": "stick",
+            "action_gerund": "sticking",
+            "action_synonyms": "stick",
+            "action_def": "pierce or penetrate or puncture with something pointed",
+            "synset": "stick.v.13"
+        }
+    ],
+    "380": [
+        {
+            "obj_class": "knife",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "381": [
+        {
+            "obj_class": "knife",
+            "action": "wield",
+            "action_gerund": "wielding",
+            "action_synonyms": "wield, handle, manage",
+            "action_def": "handle effectively",
+            "synset": "wield.v.02"
+        }
+    ],
+    "382": [
+        {
+            "obj_class": "knife",
+            "action": "lick",
+            "action_gerund": "licking",
+            "action_synonyms": "lick, lap",
+            "action_def": "pass the tongue over",
+            "synset": "lick.v.02"
+        }
+    ],
+    "383": [
+        {
+            "obj_class": "knife",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "384": [
+        {
+            "obj_class": "laptop",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "385": [
+        {
+            "obj_class": "laptop",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "386": [
+        {
+            "obj_class": "laptop",
+            "action": "read",
+            "action_gerund": "reading",
+            "action_synonyms": "read",
+            "action_def": "interpret something that is written or printed",
+            "synset": "read.v.01"
+        }
+    ],
+    "387": [
+        {
+            "obj_class": "laptop",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "388": [
+        {
+            "obj_class": "laptop",
+            "action": "type_on",
+            "action_gerund": "typing_on",
+            "action_synonyms": "type, typewrite",
+            "action_def": "write by means of a keyboard with types",
+            "synset": "type.v.01"
+        }
+    ],
+    "389": [
+        {
+            "obj_class": "laptop",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "390": [
+        {
+            "obj_class": "microwave",
+            "action": "clean",
+            "action_gerund": "cleaning",
+            "action_synonyms": "clean, make_clean",
+            "action_def": "make clean by removing dirt, filth, or unwanted substances from",
+            "synset": "clean.v.01"
+        }
+    ],
+    "391": [
+        {
+            "obj_class": "microwave",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "392": [
+        {
+            "obj_class": "microwave",
+            "action": "operate",
+            "action_gerund": "operating",
+            "action_synonyms": "operate, control",
+            "action_def": "handle and cause to function",
+            "synset": "operate.v.03"
+        }
+    ],
+    "393": [
+        {
+            "obj_class": "microwave",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "394": [
+        {
+            "obj_class": "mouse",
+            "action": "control",
+            "action_gerund": "controling",
+            "action_synonyms": "operate, control",
+            "action_def": "handle and cause to function",
+            "synset": "operate.v.03"
+        }
+    ],
+    "395": [
+        {
+            "obj_class": "mouse",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "396": [
+        {
+            "obj_class": "mouse",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "397": [
+        {
+            "obj_class": "mouse",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "398": [
+        {
+            "obj_class": "orange",
+            "action": "buy",
+            "action_gerund": "buying",
+            "action_synonyms": "buy, purchase",
+            "action_def": "obtain by purchase; acquire by means of a financial transaction",
+            "synset": "buy.v.01"
+        }
+    ],
+    "399": [
+        {
+            "obj_class": "orange",
+            "action": "cut",
+            "action_gerund": "cutting",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "400": [
+        {
+            "obj_class": "orange",
+            "action": "eat",
+            "action_gerund": "eating",
+            "action_synonyms": "eat",
+            "action_def": "take in solid food",
+            "synset": "eat.v.01"
+        }
+    ],
+    "401": [
+        {
+            "obj_class": "orange",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "402": [
+        {
+            "obj_class": "orange",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "403": [
+        {
+            "obj_class": "orange",
+            "action": "peel",
+            "action_gerund": "peeling",
+            "action_synonyms": "skin, peel, pare",
+            "action_def": "strip the skin off",
+            "synset": "skin.v.04"
+        }
+    ],
+    "404": [
+        {
+            "obj_class": "orange",
+            "action": "pick",
+            "action_gerund": "picking",
+            "action_synonyms": "pick, pluck, cull",
+            "action_def": "look for and gather",
+            "synset": "pick.v.02"
+        }
+    ],
+    "405": [
+        {
+            "obj_class": "orange",
+            "action": "squeeze",
+            "action_gerund": "squeezing",
+            "action_synonyms": "squeeze",
+            "action_def": "press firmly",
+            "synset": "squeeze.v.02"
+        }
+    ],
+    "406": [
+        {
+            "obj_class": "orange",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "407": [
+        {
+            "obj_class": "orange",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "408": [
+        {
+            "obj_class": "oven",
+            "action": "clean",
+            "action_gerund": "cleaning",
+            "action_synonyms": "clean, make_clean",
+            "action_def": "make clean by removing dirt, filth, or unwanted substances from",
+            "synset": "clean.v.01"
+        }
+    ],
+    "409": [
+        {
+            "obj_class": "oven",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "410": [
+        {
+            "obj_class": "oven",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "411": [
+        {
+            "obj_class": "oven",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "412": [
+        {
+            "obj_class": "oven",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "413": [
+        {
+            "obj_class": "oven",
+            "action": "operate",
+            "action_gerund": "operating",
+            "action_synonyms": "operate, control",
+            "action_def": "handle and cause to function",
+            "synset": "operate.v.03"
+        }
+    ],
+    "414": [
+        {
+            "obj_class": "oven",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "415": [
+        {
+            "obj_class": "parking_meter",
+            "action": "check",
+            "action_gerund": "checking",
+            "action_synonyms": "determine, check, find_out, see, ascertain, watch, learn",
+            "action_def": "find out, learn, or determine with certainty, usually by making an inquiry or other effort",
+            "synset": "determine.v.08"
+        }
+    ],
+    "416": [
+        {
+            "obj_class": "parking_meter",
+            "action": "pay",
+            "action_gerund": "paying",
+            "action_synonyms": "pay",
+            "action_def": "give money, usually in exchange for goods or services",
+            "synset": "pay.v.01"
+        }
+    ],
+    "417": [
+        {
+            "obj_class": "parking_meter",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "418": [
+        {
+            "obj_class": "parking_meter",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "419": [
+        {
+            "obj_class": "pizza",
+            "action": "buy",
+            "action_gerund": "buying",
+            "action_synonyms": "buy, purchase",
+            "action_def": "obtain by purchase; acquire by means of a financial transaction",
+            "synset": "buy.v.01"
+        }
+    ],
+    "420": [
+        {
+            "obj_class": "pizza",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "421": [
+        {
+            "obj_class": "pizza",
+            "action": "cook",
+            "action_gerund": "cooking",
+            "action_synonyms": "cook",
+            "action_def": "transform and make suitable for consumption by heating",
+            "synset": "cook.v.03"
+        }
+    ],
+    "422": [
+        {
+            "obj_class": "pizza",
+            "action": "cut",
+            "action_gerund": "cutting",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "423": [
+        {
+            "obj_class": "pizza",
+            "action": "eat",
+            "action_gerund": "eating",
+            "action_synonyms": "eat",
+            "action_def": "take in solid food",
+            "synset": "eat.v.01"
+        }
+    ],
+    "424": [
+        {
+            "obj_class": "pizza",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "425": [
+        {
+            "obj_class": "pizza",
+            "action": "make",
+            "action_gerund": "making",
+            "action_synonyms": "produce, make, create",
+            "action_def": "create or manufacture a man-made product",
+            "synset": "produce.v.02"
+        }
+    ],
+    "426": [
+        {
+            "obj_class": "pizza",
+            "action": "pick_up",
+            "action_gerund": "picking_up",
+            "action_synonyms": "pick_up",
+            "action_def": "take up by hand",
+            "synset": "pick_up.v.02"
+        }
+    ],
+    "427": [
+        {
+            "obj_class": "pizza",
+            "action": "slide",
+            "action_gerund": "sliding",
+            "action_synonyms": "slide",
+            "action_def": "move smoothly along a surface",
+            "synset": "slide.v.03"
+        }
+    ],
+    "428": [
+        {
+            "obj_class": "pizza",
+            "action": "smell",
+            "action_gerund": "smelling",
+            "action_synonyms": "smell",
+            "action_def": "inhale the odor of; perceive by the olfactory sense",
+            "synset": "smell.v.01"
+        }
+    ],
+    "429": [
+        {
+            "obj_class": "pizza",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "430": [
+        {
+            "obj_class": "refrigerator",
+            "action": "clean",
+            "action_gerund": "cleaning",
+            "action_synonyms": "clean, make_clean",
+            "action_def": "make clean by removing dirt, filth, or unwanted substances from",
+            "synset": "clean.v.01"
+        }
+    ],
+    "431": [
+        {
+            "obj_class": "refrigerator",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "432": [
+        {
+            "obj_class": "refrigerator",
+            "action": "move",
+            "action_gerund": "moving",
+            "action_synonyms": "move, displace",
+            "action_def": "cause to move or shift into a new position or place, both in a concrete and in an abstract sense",
+            "synset": "move.v.02"
+        }
+    ],
+    "433": [
+        {
+            "obj_class": "refrigerator",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "434": [
+        {
+            "obj_class": "refrigerator",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "435": [
+        {
+            "obj_class": "remote",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "436": [
+        {
+            "obj_class": "remote",
+            "action": "point",
+            "action_gerund": "pointing",
+            "action_synonyms": "charge, level, point",
+            "action_def": "direct into a position for use",
+            "synset": "charge.v.17"
+        }
+    ],
+    "437": [
+        {
+            "obj_class": "remote",
+            "action": "swing",
+            "action_gerund": "swinging",
+            "action_synonyms": "swing",
+            "action_def": "move in a curve or arc, usually with the intent of hitting",
+            "synset": "swing.v.01"
+        }
+    ],
+    "438": [
+        {
+            "obj_class": "remote",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "439": [
+        {
+            "obj_class": "sandwich",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "440": [
+        {
+            "obj_class": "sandwich",
+            "action": "cook",
+            "action_gerund": "cooking",
+            "action_synonyms": "cook",
+            "action_def": "transform and make suitable for consumption by heating",
+            "synset": "cook.v.03"
+        }
+    ],
+    "441": [
+        {
+            "obj_class": "sandwich",
+            "action": "cut",
+            "action_gerund": "cutting",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "442": [
+        {
+            "obj_class": "sandwich",
+            "action": "eat",
+            "action_gerund": "eating",
+            "action_synonyms": "eat",
+            "action_def": "take in solid food",
+            "synset": "eat.v.01"
+        }
+    ],
+    "443": [
+        {
+            "obj_class": "sandwich",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "444": [
+        {
+            "obj_class": "sandwich",
+            "action": "make",
+            "action_gerund": "making",
+            "action_synonyms": "produce, make, create",
+            "action_def": "create or manufacture a man-made product",
+            "synset": "produce.v.02"
+        }
+    ],
+    "445": [
+        {
+            "obj_class": "sandwich",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "446": [
+        {
+            "obj_class": "scissors",
+            "action": "cut_with",
+            "action_gerund": "cutting_with",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "447": [
+        {
+            "obj_class": "scissors",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "448": [
+        {
+            "obj_class": "scissors",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "449": [
+        {
+            "obj_class": "scissors",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "450": [
+        {
+            "obj_class": "sink",
+            "action": "clean",
+            "action_gerund": "cleaning",
+            "action_synonyms": "clean, make_clean",
+            "action_def": "make clean by removing dirt, filth, or unwanted substances from",
+            "synset": "clean.v.01"
+        }
+    ],
+    "451": [
+        {
+            "obj_class": "sink",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "452": [
+        {
+            "obj_class": "sink",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "453": [
+        {
+            "obj_class": "sink",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "454": [
+        {
+            "obj_class": "skateboard",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "455": [
+        {
+            "obj_class": "skateboard",
+            "action": "flip",
+            "action_gerund": "flipping",
+            "action_synonyms": "flip, twitch",
+            "action_def": "toss with a sharp movement so as to cause to turn over in the air",
+            "synset": "flip.v.04"
+        }
+    ],
+    "456": [
+        {
+            "obj_class": "skateboard",
+            "action": "grind",
+            "action_gerund": "grinding",
+            "action_synonyms": "grate, grind",
+            "action_def": "make a grating or grinding sound by rubbing together",
+            "synset": "grate.v.04"
+        }
+    ],
+    "457": [
+        {
+            "obj_class": "skateboard",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "458": [
+        {
+            "obj_class": "skateboard",
+            "action": "jump",
+            "action_gerund": "jumping",
+            "action_synonyms": "jump, leap",
+            "action_def": "cause to jump or leap",
+            "synset": "jump.v.11"
+        }
+    ],
+    "459": [
+        {
+            "obj_class": "skateboard",
+            "action": "pick_up",
+            "action_gerund": "picking_up",
+            "action_synonyms": "pick_up",
+            "action_def": "take up by hand",
+            "synset": "pick_up.v.02"
+        }
+    ],
+    "460": [
+        {
+            "obj_class": "skateboard",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "be carried or travel on or in a vehicle",
+            "synset": "ride.v.02"
+        }
+    ],
+    "461": [
+        {
+            "obj_class": "skateboard",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "462": [
+        {
+            "obj_class": "skateboard",
+            "action": "stand_on",
+            "action_gerund": "standing_on",
+            "action_synonyms": "stand, stand_up",
+            "action_def": "be standing; be upright",
+            "synset": "stand.v.01"
+        }
+    ],
+    "463": [
+        {
+            "obj_class": "skateboard",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "464": [
+        {
+            "obj_class": "skis",
+            "action": "adjust",
+            "action_gerund": "adjusting",
+            "action_synonyms": "adjust",
+            "action_def": "make correspondent or conformable",
+            "synset": "adjust.v.04"
+        }
+    ],
+    "465": [
+        {
+            "obj_class": "skis",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "466": [
+        {
+            "obj_class": "skis",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "467": [
+        {
+            "obj_class": "skis",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "468": [
+        {
+            "obj_class": "skis",
+            "action": "jump",
+            "action_gerund": "jumping",
+            "action_synonyms": "jump, leap",
+            "action_def": "cause to jump or leap",
+            "synset": "jump.v.11"
+        }
+    ],
+    "469": [
+        {
+            "obj_class": "skis",
+            "action": "pick_up",
+            "action_gerund": "picking_up",
+            "action_synonyms": "pick_up",
+            "action_def": "take up by hand",
+            "synset": "pick_up.v.02"
+        }
+    ],
+    "470": [
+        {
+            "obj_class": "skis",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "471": [
+        {
+            "obj_class": "skis",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "be carried or travel on or in a vehicle",
+            "synset": "ride.v.02"
+        }
+    ],
+    "472": [
+        {
+            "obj_class": "skis",
+            "action": "stand_on",
+            "action_gerund": "standing_on",
+            "action_synonyms": "stand, stand_up",
+            "action_def": "be standing; be upright",
+            "synset": "stand.v.01"
+        }
+    ],
+    "473": [
+        {
+            "obj_class": "skis",
+            "action": "wear",
+            "action_gerund": "wearing",
+            "action_synonyms": "wear, bear",
+            "action_def": "have on one's person",
+            "synset": "wear.v.02"
+        }
+    ],
+    "474": [
+        {
+            "obj_class": "skis",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "475": [
+        {
+            "obj_class": "snowboard",
+            "action": "adjust",
+            "action_gerund": "adjusting",
+            "action_synonyms": "adjust",
+            "action_def": "make correspondent or conformable",
+            "synset": "adjust.v.04"
+        }
+    ],
+    "476": [
+        {
+            "obj_class": "snowboard",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "477": [
+        {
+            "obj_class": "snowboard",
+            "action": "grind",
+            "action_gerund": "grinding",
+            "action_synonyms": "grate, grind",
+            "action_def": "make a grating or grinding sound by rubbing together",
+            "synset": "grate.v.04"
+        }
+    ],
+    "478": [
+        {
+            "obj_class": "snowboard",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "479": [
+        {
+            "obj_class": "snowboard",
+            "action": "jump",
+            "action_gerund": "jumping",
+            "action_synonyms": "jump, leap",
+            "action_def": "cause to jump or leap",
+            "synset": "jump.v.11"
+        }
+    ],
+    "480": [
+        {
+            "obj_class": "snowboard",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "be carried or travel on or in a vehicle",
+            "synset": "ride.v.02"
+        }
+    ],
+    "481": [
+        {
+            "obj_class": "snowboard",
+            "action": "stand_on",
+            "action_gerund": "standing_on",
+            "action_synonyms": "stand, stand_up",
+            "action_def": "be standing; be upright",
+            "synset": "stand.v.01"
+        }
+    ],
+    "482": [
+        {
+            "obj_class": "snowboard",
+            "action": "wear",
+            "action_gerund": "wearing",
+            "action_synonyms": "wear, bear",
+            "action_def": "have on one's person",
+            "synset": "wear.v.02"
+        }
+    ],
+    "483": [
+        {
+            "obj_class": "snowboard",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "484": [
+        {
+            "obj_class": "spoon",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "485": [
+        {
+            "obj_class": "spoon",
+            "action": "lick",
+            "action_gerund": "licking",
+            "action_synonyms": "lick, lap",
+            "action_def": "pass the tongue over",
+            "synset": "lick.v.02"
+        }
+    ],
+    "486": [
+        {
+            "obj_class": "spoon",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "487": [
+        {
+            "obj_class": "spoon",
+            "action": "sip",
+            "action_gerund": "sipping",
+            "action_synonyms": "sip",
+            "action_def": "drink in sips",
+            "synset": "sip.v.01"
+        }
+    ],
+    "488": [
+        {
+            "obj_class": "spoon",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "489": [
+        {
+            "obj_class": "sports_ball",
+            "action": "block",
+            "action_gerund": "blocking",
+            "action_synonyms": "parry, block, deflect",
+            "action_def": "impede the movement of (an opponent or a ball)",
+            "synset": "parry.v.01"
+        }
+    ],
+    "490": [
+        {
+            "obj_class": "sports_ball",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "491": [
+        {
+            "obj_class": "sports_ball",
+            "action": "catch",
+            "action_gerund": "catching",
+            "action_synonyms": "catch, grab, take_hold_of",
+            "action_def": "take hold of so as to seize or restrain or stop the motion of",
+            "synset": "catch.v.04"
+        }
+    ],
+    "492": [
+        {
+            "obj_class": "sports_ball",
+            "action": "dribble",
+            "action_gerund": "dribbling",
+            "action_synonyms": "dribble, carry",
+            "action_def": "propel, \"Carry the ball\"",
+            "synset": "dribble.v.03"
+        }
+    ],
+    "493": [
+        {
+            "obj_class": "sports_ball",
+            "action": "hit",
+            "action_gerund": "hitting",
+            "action_synonyms": "hit",
+            "action_def": "cause to move by striking",
+            "synset": "hit.v.01"
+        }
+    ],
+    "494": [
+        {
+            "obj_class": "sports_ball",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "495": [
+        {
+            "obj_class": "sports_ball",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "496": [
+        {
+            "obj_class": "sports_ball",
+            "action": "kick",
+            "action_gerund": "kicking",
+            "action_synonyms": "kick",
+            "action_def": "drive or propel with the foot",
+            "synset": "kick.v.01"
+        }
+    ],
+    "497": [
+        {
+            "obj_class": "sports_ball",
+            "action": "pick_up",
+            "action_gerund": "picking_up",
+            "action_synonyms": "pick_up",
+            "action_def": "take up by hand",
+            "synset": "pick_up.v.02"
+        }
+    ],
+    "498": [
+        {
+            "obj_class": "sports_ball",
+            "action": "serve",
+            "action_gerund": "serving",
+            "action_synonyms": "serve",
+            "action_def": "put the ball into play",
+            "synset": "serve.v.15"
+        }
+    ],
+    "499": [
+        {
+            "obj_class": "sports_ball",
+            "action": "sign",
+            "action_gerund": "signing",
+            "action_synonyms": "sign, subscribe",
+            "action_def": "mark with one's signature; write one's name (on)",
+            "synset": "sign.v.01"
+        }
+    ],
+    "500": [
+        {
+            "obj_class": "sports_ball",
+            "action": "spin",
+            "action_gerund": "spining",
+            "action_synonyms": "whirl, birl, spin, twirl",
+            "action_def": "cause to spin",
+            "synset": "whirl.v.02"
+        }
+    ],
+    "501": [
+        {
+            "obj_class": "sports_ball",
+            "action": "throw",
+            "action_gerund": "throwing",
+            "action_synonyms": "throw",
+            "action_def": "propel through the air",
+            "synset": "throw.v.01"
+        }
+    ],
+    "502": [
+        {
+            "obj_class": "sports_ball",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "503": [
+        {
+            "obj_class": "stop_sign",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "504": [
+        {
+            "obj_class": "stop_sign",
+            "action": "stand_under",
+            "action_gerund": "standing_under",
+            "action_synonyms": "stand, stand_up",
+            "action_def": "be standing; be upright",
+            "synset": "stand.v.01"
+        }
+    ],
+    "505": [
+        {
+            "obj_class": "stop_sign",
+            "action": "stop_at",
+            "action_gerund": "stopping_at",
+            "action_synonyms": "stop, halt",
+            "action_def": "come to a halt, stop moving",
+            "synset": "stop.v.01"
+        }
+    ],
+    "506": [
+        {
+            "obj_class": "stop_sign",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "507": [
+        {
+            "obj_class": "suitcase",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "508": [
+        {
+            "obj_class": "suitcase",
+            "action": "drag",
+            "action_gerund": "dragging",
+            "action_synonyms": "drag",
+            "action_def": "pull, as against a resistance",
+            "synset": "drag.v.01"
+        }
+    ],
+    "509": [
+        {
+            "obj_class": "suitcase",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "510": [
+        {
+            "obj_class": "suitcase",
+            "action": "hug",
+            "action_gerund": "hugging",
+            "action_synonyms": "embrace, hug, bosom, squeeze",
+            "action_def": "squeeze (someone) tightly in your arms, usually with fondness",
+            "synset": "embrace.v.02"
+        }
+    ],
+    "511": [
+        {
+            "obj_class": "suitcase",
+            "action": "load",
+            "action_gerund": "loading",
+            "action_synonyms": "load",
+            "action_def": "(a person/worker) put (the target object) on a structure or conveyance",
+            "synset": "load.v.04"
+        }
+    ],
+    "512": [
+        {
+            "obj_class": "suitcase",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "513": [
+        {
+            "obj_class": "suitcase",
+            "action": "pack",
+            "action_gerund": "packing",
+            "action_synonyms": "pack",
+            "action_def": "arrange in a container",
+            "synset": "pack.v.01"
+        }
+    ],
+    "514": [
+        {
+            "obj_class": "suitcase",
+            "action": "pick_up",
+            "action_gerund": "picking_up",
+            "action_synonyms": "pick_up",
+            "action_def": "take up by hand",
+            "synset": "pick_up.v.02"
+        }
+    ],
+    "515": [
+        {
+            "obj_class": "suitcase",
+            "action": "zip",
+            "action_gerund": "zipping",
+            "action_synonyms": "zip_up, zipper, zip",
+            "action_def": "close with a zipper",
+            "synset": "zip_up.v.01"
+        }
+    ],
+    "516": [
+        {
+            "obj_class": "suitcase",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "517": [
+        {
+            "obj_class": "surfboard",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "518": [
+        {
+            "obj_class": "surfboard",
+            "action": "drag",
+            "action_gerund": "dragging",
+            "action_synonyms": "drag",
+            "action_def": "pull, as against a resistance",
+            "synset": "drag.v.01"
+        }
+    ],
+    "519": [
+        {
+            "obj_class": "surfboard",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "520": [
+        {
+            "obj_class": "surfboard",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "521": [
+        {
+            "obj_class": "surfboard",
+            "action": "jump",
+            "action_gerund": "jumping",
+            "action_synonyms": "jump, leap",
+            "action_def": "cause to jump or leap",
+            "synset": "jump.v.11"
+        }
+    ],
+    "522": [
+        {
+            "obj_class": "surfboard",
+            "action": "lie_on",
+            "action_gerund": "lying_on",
+            "action_synonyms": "lie",
+            "action_def": "be lying, be prostrate; be in a horizontal position",
+            "synset": "lie.v.02"
+        }
+    ],
+    "523": [
+        {
+            "obj_class": "surfboard",
+            "action": "load",
+            "action_gerund": "loading",
+            "action_synonyms": "load",
+            "action_def": "(a person/worker) put (the target object) on a structure or conveyance",
+            "synset": "load.v.04"
+        }
+    ],
+    "524": [
+        {
+            "obj_class": "surfboard",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "be carried or travel on or in a vehicle",
+            "synset": "ride.v.02"
+        }
+    ],
+    "525": [
+        {
+            "obj_class": "surfboard",
+            "action": "stand_on",
+            "action_gerund": "standing_on",
+            "action_synonyms": "stand, stand_up",
+            "action_def": "be standing; be upright",
+            "synset": "stand.v.01"
+        }
+    ],
+    "526": [
+        {
+            "obj_class": "surfboard",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "527": [
+        {
+            "obj_class": "surfboard",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "528": [
+        {
+            "obj_class": "surfboard",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "529": [
+        {
+            "obj_class": "teddy_bear",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "530": [
+        {
+            "obj_class": "teddy_bear",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "531": [
+        {
+            "obj_class": "teddy_bear",
+            "action": "hug",
+            "action_gerund": "hugging",
+            "action_synonyms": "embrace, hug, bosom, squeeze",
+            "action_def": "squeeze (someone) tightly in your arms, usually with fondness",
+            "synset": "embrace.v.02"
+        }
+    ],
+    "532": [
+        {
+            "obj_class": "teddy_bear",
+            "action": "kiss",
+            "action_gerund": "kissing",
+            "action_synonyms": "snog, kiss, buss, osculate",
+            "action_def": "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.",
+            "synset": "snog.v.01"
+        }
+    ],
+    "533": [
+        {
+            "obj_class": "teddy_bear",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "534": [
+        {
+            "obj_class": "tennis_racket",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "535": [
+        {
+            "obj_class": "tennis_racket",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "536": [
+        {
+            "obj_class": "tennis_racket",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "537": [
+        {
+            "obj_class": "tennis_racket",
+            "action": "swing",
+            "action_gerund": "swinging",
+            "action_synonyms": "swing",
+            "action_def": "move in a curve or arc, usually with the intent of hitting",
+            "synset": "swing.v.01"
+        }
+    ],
+    "538": [
+        {
+            "obj_class": "tennis_racket",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "539": [
+        {
+            "obj_class": "tie",
+            "action": "adjust",
+            "action_gerund": "adjusting",
+            "action_synonyms": "adjust",
+            "action_def": "make correspondent or conformable",
+            "synset": "adjust.v.04"
+        }
+    ],
+    "540": [
+        {
+            "obj_class": "tie",
+            "action": "cut",
+            "action_gerund": "cutting",
+            "action_synonyms": "cut",
+            "action_def": "separate with or as if with an instrument",
+            "synset": "cut.v.01"
+        }
+    ],
+    "541": [
+        {
+            "obj_class": "tie",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "542": [
+        {
+            "obj_class": "tie",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "543": [
+        {
+            "obj_class": "tie",
+            "action": "pull",
+            "action_gerund": "pulling",
+            "action_synonyms": "pull",
+            "action_def": "apply force so as to cause motion towards the source of the motion",
+            "synset": "pull.v.04"
+        }
+    ],
+    "544": [
+        {
+            "obj_class": "tie",
+            "action": "tie",
+            "action_gerund": "tying",
+            "action_synonyms": "tie",
+            "action_def": "form a knot or bow in",
+            "synset": "tie.v.05"
+        }
+    ],
+    "545": [
+        {
+            "obj_class": "tie",
+            "action": "wear",
+            "action_gerund": "wearing",
+            "action_synonyms": "wear, bear",
+            "action_def": "have on one's person",
+            "synset": "wear.v.02"
+        }
+    ],
+    "546": [
+        {
+            "obj_class": "tie",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "547": [
+        {
+            "obj_class": "toaster",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "548": [
+        {
+            "obj_class": "toaster",
+            "action": "operate",
+            "action_gerund": "operating",
+            "action_synonyms": "operate, control",
+            "action_def": "handle and cause to function",
+            "synset": "operate.v.03"
+        }
+    ],
+    "549": [
+        {
+            "obj_class": "toaster",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "550": [
+        {
+            "obj_class": "toaster",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "551": [
+        {
+            "obj_class": "toilet",
+            "action": "clean",
+            "action_gerund": "cleaning",
+            "action_synonyms": "clean, make_clean",
+            "action_def": "make clean by removing dirt, filth, or unwanted substances from",
+            "synset": "clean.v.01"
+        }
+    ],
+    "552": [
+        {
+            "obj_class": "toilet",
+            "action": "flush",
+            "action_gerund": "flushing",
+            "action_synonyms": "flush, scour, purge",
+            "action_def": "rinse, clean, or empty with a liquid",
+            "synset": "flush.v.05"
+        }
+    ],
+    "553": [
+        {
+            "obj_class": "toilet",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "554": [
+        {
+            "obj_class": "toilet",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "555": [
+        {
+            "obj_class": "toilet",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "556": [
+        {
+            "obj_class": "toilet",
+            "action": "stand_on",
+            "action_gerund": "standing_on",
+            "action_synonyms": "stand, stand_up",
+            "action_def": "be standing; be upright",
+            "synset": "stand.v.01"
+        }
+    ],
+    "557": [
+        {
+            "obj_class": "toilet",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "558": [
+        {
+            "obj_class": "toilet",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "559": [
+        {
+            "obj_class": "toothbrush",
+            "action": "brush_with",
+            "action_gerund": "brushing_with",
+            "action_synonyms": "brush",
+            "action_def": "rub with a brush, or as if with a brush",
+            "synset": "brush.v.01"
+        }
+    ],
+    "560": [
+        {
+            "obj_class": "toothbrush",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "561": [
+        {
+            "obj_class": "toothbrush",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "562": [
+        {
+            "obj_class": "toothbrush",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "563": [
+        {
+            "obj_class": "traffic_light",
+            "action": "install",
+            "action_gerund": "installing",
+            "action_synonyms": "install, instal, put_in, set_up",
+            "action_def": "set up for use",
+            "synset": "install.v.01"
+        }
+    ],
+    "564": [
+        {
+            "obj_class": "traffic_light",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "565": [
+        {
+            "obj_class": "traffic_light",
+            "action": "stand_under",
+            "action_gerund": "standing_under",
+            "action_synonyms": "stand, stand_up",
+            "action_def": "be standing; be upright",
+            "synset": "stand.v.01"
+        }
+    ],
+    "566": [
+        {
+            "obj_class": "traffic_light",
+            "action": "stop_at",
+            "action_gerund": "stopping_at",
+            "action_synonyms": "stop, halt",
+            "action_def": "come to a halt, stop moving",
+            "synset": "stop.v.01"
+        }
+    ],
+    "567": [
+        {
+            "obj_class": "traffic_light",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "568": [
+        {
+            "obj_class": "truck",
+            "action": "direct",
+            "action_gerund": "directing",
+            "action_synonyms": "lead, take, direct, conduct, guide",
+            "action_def": "to show or point out the way for; directing the traffic of",
+            "synset": "lead.v.01"
+        }
+    ],
+    "569": [
+        {
+            "obj_class": "truck",
+            "action": "drive",
+            "action_gerund": "driving",
+            "action_synonyms": "drive",
+            "action_def": "operate or control a vehicle",
+            "synset": "drive.v.01"
+        }
+    ],
+    "570": [
+        {
+            "obj_class": "truck",
+            "action": "inspect",
+            "action_gerund": "inspecting",
+            "action_synonyms": "inspect",
+            "action_def": "to look at (something) carefully in order to learn more about it, to find problems, etc.",
+            "synset": "inspect.v.01"
+        }
+    ],
+    "571": [
+        {
+            "obj_class": "truck",
+            "action": "load",
+            "action_gerund": "loading",
+            "action_synonyms": "load, lade, laden, load_up",
+            "action_def": "(a person/worker) put things in/on (the target object)",
+            "synset": "load.v.01"
+        }
+    ],
+    "572": [
+        {
+            "obj_class": "truck",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "573": [
+        {
+            "obj_class": "truck",
+            "action": "ride",
+            "action_gerund": "riding",
+            "action_synonyms": "ride",
+            "action_def": "be carried or travel on or in a vehicle",
+            "synset": "ride.v.02"
+        }
+    ],
+    "574": [
+        {
+            "obj_class": "truck",
+            "action": "sit_on",
+            "action_gerund": "sitting_on",
+            "action_synonyms": "sit, sit_down",
+            "action_def": "be seated",
+            "synset": "sit.v.01"
+        }
+    ],
+    "575": [
+        {
+            "obj_class": "truck",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "576": [
+        {
+            "obj_class": "truck",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "577": [
+        {
+            "obj_class": "umbrella",
+            "action": "carry",
+            "action_gerund": "carrying",
+            "action_synonyms": "transport, carry",
+            "action_def": "move while supporting, either in a vehicle or in one's hands or on one's body",
+            "synset": "transport.v.02"
+        }
+    ],
+    "578": [
+        {
+            "obj_class": "umbrella",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "579": [
+        {
+            "obj_class": "umbrella",
+            "action": "lose",
+            "action_gerund": "losing",
+            "action_synonyms": "lose",
+            "action_def": "fail to keep or to maintain; cease to have, either physically or in an abstract sense",
+            "synset": "lose.v.01"
+        }
+    ],
+    "580": [
+        {
+            "obj_class": "umbrella",
+            "action": "open",
+            "action_gerund": "opening",
+            "action_synonyms": "open, open_up",
+            "action_def": "cause to open or to become open",
+            "synset": "open.v.01"
+        }
+    ],
+    "581": [
+        {
+            "obj_class": "umbrella",
+            "action": "repair",
+            "action_gerund": "repairing",
+            "action_synonyms": "repair, mend, fix, bushel, doctor, furbish_up, restore, touch_on",
+            "action_def": "restore by replacing a part or putting together what is torn or broken",
+            "synset": "repair.v.01"
+        }
+    ],
+    "582": [
+        {
+            "obj_class": "umbrella",
+            "action": "set",
+            "action_gerund": "setting",
+            "action_synonyms": "set_up, lay_out, set",
+            "action_def": "get ready for a particular purpose or event",
+            "synset": "set_up.v.04"
+        }
+    ],
+    "583": [
+        {
+            "obj_class": "umbrella",
+            "action": "stand_under",
+            "action_gerund": "standing_under",
+            "action_synonyms": "stand, stand_up",
+            "action_def": "be standing; be upright",
+            "synset": "stand.v.01"
+        }
+    ],
+    "584": [
+        {
+            "obj_class": "umbrella",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "585": [
+        {
+            "obj_class": "vase",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "586": [
+        {
+            "obj_class": "vase",
+            "action": "make",
+            "action_gerund": "making",
+            "action_synonyms": "produce, make, create",
+            "action_def": "create or manufacture a man-made product",
+            "synset": "produce.v.02"
+        }
+    ],
+    "587": [
+        {
+            "obj_class": "vase",
+            "action": "paint",
+            "action_gerund": "painting",
+            "action_synonyms": "paint",
+            "action_def": "apply paint to; coat with paint",
+            "synset": "paint.v.02"
+        }
+    ],
+    "588": [
+        {
+            "obj_class": "vase",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "589": [
+        {
+            "obj_class": "wine_glass",
+            "action": "fill",
+            "action_gerund": "filling",
+            "action_synonyms": "fill, fill_up, make_full",
+            "action_def": "make full, also in a metaphorical sense",
+            "synset": "fill.v.01"
+        }
+    ],
+    "590": [
+        {
+            "obj_class": "wine_glass",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "591": [
+        {
+            "obj_class": "wine_glass",
+            "action": "sip",
+            "action_gerund": "sipping",
+            "action_synonyms": "sip",
+            "action_def": "drink in sips",
+            "synset": "sip.v.01"
+        }
+    ],
+    "592": [
+        {
+            "obj_class": "wine_glass",
+            "action": "toast",
+            "action_gerund": "toasting",
+            "action_synonyms": "toast, drink, pledge, salute, wassail",
+            "action_def": "propose a toast to",
+            "synset": "toast.v.02"
+        }
+    ],
+    "593": [
+        {
+            "obj_class": "wine_glass",
+            "action": "lick",
+            "action_gerund": "licking",
+            "action_synonyms": "lick, lap",
+            "action_def": "pass the tongue over",
+            "synset": "lick.v.02"
+        }
+    ],
+    "594": [
+        {
+            "obj_class": "wine_glass",
+            "action": "wash",
+            "action_gerund": "washing",
+            "action_synonyms": "wash, rinse",
+            "action_def": "clean with some chemical process",
+            "synset": "wash.v.01"
+        }
+    ],
+    "595": [
+        {
+            "obj_class": "wine_glass",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ],
+    "596": [
+        {
+            "obj_class": "zebra",
+            "action": "feed",
+            "action_gerund": "feeding",
+            "action_synonyms": "feed, give",
+            "action_def": "give food to",
+            "synset": "feed.v.02"
+        }
+    ],
+    "597": [
+        {
+            "obj_class": "zebra",
+            "action": "hold",
+            "action_gerund": "holding",
+            "action_synonyms": "hold, take_hold",
+            "action_def": "held by hand; to have or maintain in the grasp; to attach the hand to",
+            "synset": "hold.v.02"
+        }
+    ],
+    "598": [
+        {
+            "obj_class": "zebra",
+            "action": "pet",
+            "action_gerund": "petting",
+            "action_synonyms": "pet",
+            "action_def": "stroke or caress gently",
+            "synset": "pet.v.01"
+        }
+    ],
+    "599": [
+        {
+            "obj_class": "zebra",
+            "action": "watch",
+            "action_gerund": "watching",
+            "action_synonyms": "watch",
+            "action_def": "watch with appreciation; to look at for an amount of time",
+            "synset": "watch.v.01"
+        }
+    ],
+    "600": [
+        {
+            "obj_class": "zebra",
+            "action": "no_interaction",
+            "action_gerund": "no_interaction",
+            "action_synonyms": "",
+            "action_def": "",
+            "synset": ""
+        }
+    ]
+}

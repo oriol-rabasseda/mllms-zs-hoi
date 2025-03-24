@@ -52,11 +52,11 @@ def apply_text_prompt_template(object_type: str, action: str, label: int, num_te
         return templates, "no"
 
 
-def convert_hico_to_q_a(hico_ann_filepath: str, mode: str, num_templates: int):
+def convert_hico_to_q_a(hico_ann_filepath: str, hoi_info_filename: str, mode: str, num_templates: int):
     with open(hico_ann_filepath, 'r') as f:
         json_ann = json.load(f)
     
-    with open('/data-slow/hupba/orabasseda/hico_20150920//hoi_info.json', 'r') as f:
+    with open(hoi_info_filename, 'r') as f:
         hoi_info = json.load(f)
 
     q_a_items = []
@@ -97,6 +97,7 @@ def parse_args():
     parser.add_argument("--output-qa-filepath", type=str)
     parser.add_argument("--mode", type=str, default="Unknown")
     parser.add_argument("--num-templates", type=int, default=1)
+    parser.add_argument("--hoi-info-filepath", type=str)
 
     args = parser.parse_args()
     return args
@@ -104,6 +105,6 @@ def parse_args():
 
 if __name__ == "__main__":
     args = parse_args()
-    q_a_items = convert_hico_to_q_a(args.hico_ann_filepath, args.mode, args.num_templates)
+    q_a_items = convert_hico_to_q_a(args.hico_ann_filepath, args.hoi_info_filepath, args.mode, args.num_templates)
     with open(args.output_qa_filepath, 'w') as f:
         json.dump(q_a_items, f, indent=4)

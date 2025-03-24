@@ -52,8 +52,6 @@ def main(qa_filepath, aux_qa_filepath, output_filepath) -> None:
     os.makedirs(osp.dirname(output_filepath), exist_ok=True)
     with open(output_filepath, "w") as f:
         json.dump(results, f, indent=4)
-    
-    print(counter)
 
 
 def parse_args():

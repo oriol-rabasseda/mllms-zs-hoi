@@ -7,7 +7,7 @@ QA_JSON="./annotations/hico_qa_test_unknown.json"
 KO_JSON="./annotations/hico_qa_test_ko.json"
 
 OD_JSON="./annotations/hico_qa_test_unknown_od.json"
-GT_JSON="./annotations/hico_qa_test_unknown_od.json"
+GT_JSON="./annotations/hico_qa_test_KO.json"
 MLLM_JSON="./annotations/hico_qa_test_unknown_mllm.json"
 
 if [ ! -e $RAW_JSON ]; then
