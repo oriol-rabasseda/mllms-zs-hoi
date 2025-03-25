@@ -17,8 +17,16 @@ Multimodal Large Language Models (MLLMs) excel as zero-shot reasoners across div
 ```
 ├── datasets/ # Code to preprocess the data used in the paper
     └── hico
+        └── annotations
     └── hico_det
+        └── annotations
 ├── src/ # Source code for experiments
+    └── evaluations
+        └── hico
+            └── results
+        └── hico_det
+            └── results
+    └── models # MLLMs supported
 ├── requirements.txt # Dependencies
 ├── README.md # This file
 ├── LICENSE # License file
@@ -60,7 +68,34 @@ python possible_questions.py
 Similar for `possible_questions_bbox`, `possible_questions_blur`, `possible_questions_gray`, and `possible_questions_marker`.
 
 ## 🏗️ Usage
+### HICO evaluation
+For the baseline computation, run the script:
+```
+cd src/evaluations/hico
+python evaluate_hico_classification.py --model-name <model> --img-dir <your-data>/hico_20150920/images/test2015 --qa-filepath ../../../datasets/hico/annotations/hico_qa_test_unknown_od.json --output-filepath ./results/<model>.json
+```
 
+`<model>` must be subtituted by one model belonging to one of the supported families of models: MiniCPM-V ([🤗](https://huggingface.co/collections/openbmb/multimodal-models-65d48fa84e358ce02a92d004)), Qwen2-VL ([🤗](https://huggingface.co/collections/Qwen/qwen2-vl-66cee7455501d7126940800d)), Qwen2.5-VL ([🤗](https://huggingface.co/collections/Qwen/qwen25-vl-6795ffac22b334a837c0f9a5)), LLaVA-OneVision ([🤗](https://huggingface.co/collections/llava-hf/llava-onevision-66bb1e9ce8856e210a7ed1fe)), InternVL2 ([🤗](https://huggingface.co/collections/OpenGVLab/internvl20-667d3961ab5eb12c7ed1463e)), InternVL2.5 ([🤗](https://huggingface.co/collections/OpenGVLab/internvl25-673e1019b66e2218f68d7c1c)), InternVL2.5-MPO ([🤗](https://huggingface.co/collections/OpenGVLab/internvl25-mpo-6753fed98cd828219b12f849)), Phi-3-Vision ([🤗](https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3)), Ovis2 ([🤗](https://huggingface.co/collections/AIDC-AI/ovis2-67ab36c7e497429034874464)), and Deepseek-VL2 ([🤗](https://huggingface.co/collections/deepseek-ai/deepseek-vl2-675c22accc456d3beb4613ab)).
+
+For evaluations applying zero-shot strategies
+```
+cd src/evaluations/hico
+python evaluate_hico_<method>.py --model-name <model> --img-dir <your-data>/hico_20150920/images/test2015 --qa-filepath ../../../datasets/hico/annotations/hico_qa_test_unknown_od.json --output-filepath ./results/<method>/<model>.json
+```
+
+where `<method>` can be `caption`, `cot`, or `objects_icl`; and `<model>` supported are MiniCPM-V and Qwen2-VL families. For ensemble methods, run the script:
+```
+cd src/evaluations/hico
+python evaluate_hico_ensemble.py --model-name <model> --img-dir <your-data>/hico_20150920/images/test2015 --qa-filepath ../../../datasets/hico/annotations/Ensemble/<num_templates>/hico_qa_test_unknown_od.json --output-filepath ./results/Ensemble/<num_templates>/<model>.json
+```
+
+To evaluate the results obtained by an experiment, run:
+```
+cd src/evaluations/hico
+python map.py --model-name <model> --results-filepath ./results/<model>.json
+```
+
+### HICO-DET evaluation
 
 ## 📊 Results
 [Include key results, figures, or tables from the paper.]

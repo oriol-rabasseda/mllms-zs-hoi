@@ -12,7 +12,6 @@ def main(img_dir, qa_filepath, output_filepath, confidence=0.1) -> None:
     detector = YOLO("yolo11x.pt").to('cuda')
     results = []
     current_file = ""
-    counter = 0
     for qa_dict in tqdm(qa_dicts, total=len(qa_dicts)):
         img_filepath = osp.join(img_dir, qa_dict["im_path"])
 
@@ -49,9 +48,6 @@ def main(img_dir, qa_filepath, output_filepath, confidence=0.1) -> None:
                     "answer": qa_dict["answer"],
                     "score": -1.0
                 })
-            
-            if qa_dict["action"] != "no_interaction":
-                counter += 1
         
         else:
             results.append(

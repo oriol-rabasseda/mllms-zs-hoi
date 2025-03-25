@@ -19,7 +19,6 @@ def main(qa_filepath, aux_qa_filepath, output_filepath) -> None:
             obj_per_image[qa_dict['im_path']] += [qa_dict['obj_class']]
 
     results = []
-    counter = 0
     for qa_dict in tqdm(qa_dicts, total=len(qa_dicts)):
         if qa_dict['obj_class'] in obj_per_image[qa_dict['im_path']]:
             results.append(
@@ -32,9 +31,6 @@ def main(qa_filepath, aux_qa_filepath, output_filepath) -> None:
                     "answer": qa_dict["answer"],
                     "score": -1.0
                 })
-            
-            if qa_dict["action"] != "no_interaction":
-                counter += 1
         
         else:
             results.append(
