@@ -156,8 +156,7 @@ For object specification, we design Black Other Objects and Objects as In-Contex
 The remaining object specification methods are:
 ![image](./images/object_specification.png)
 
-On HIO-DET, the comparison of methods return the following results:
-# MiniCPM-V indication approaches
+On HICO-DET, the comparison of methods return the following results:
 | Approach                     | mAP (MiniCPM-V) | mAP (Qwen2-VL) |
 | ---------------------------- | ------ | ------ |
 | Baseline                     | 20.78% | 20.00% |
