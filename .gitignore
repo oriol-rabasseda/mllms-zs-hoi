@@ -1,6 +1,7 @@
 datasets/hico/annotations
 datasets/hico_det/annotations
 src/evaluations/hico/results
+src/evaluations/hico_det/results
 
 src/__pycache__
 src/models/__pycache__

@@ -52,9 +52,9 @@ cd datasets/hico
 ./build_hico.sh <your-data>/hico_20150920/anno.mat <your-data>/hico_20150920/images/test2015 <mode> <model>
 ```
 where `<mode>` should be substitued by `OD`, `GT`, or `MLLM` depending on the strategy used to filter out questions whose objects are not in the scene:
-* `OD`: use YOLO11x to filter the objects in the scene with a confidence score lower than 0.1.
-* `GT`: use the ground truth objects in the scene, evaluating the Known Objects approach of HICO.
-* `MLLM`: use a MLLM with the question `Is there a <object> in the image? Answer with yes or no.` and compute the classification score to determine the presence of the `<object>` in the scene. The detection score is set to 0.5. This strategy requires the parameter `<model>` with a supported model, that will be used for detection.
+* `OD`: Use YOLO11x to filter the objects in the scene with a confidence score lower than 0.1.
+* `GT`: Use the ground truth objects in the scene, evaluating the Known Objects approach of HICO.
+* `MLLM`: Use a MLLM with the question `Is there a <object> in the image? Answer with yes or no.` and compute the classification score to determine the presence of the `<object>` in the scene. The detection score is set to 0.5. This strategy requires the parameter `<model>` with a supported model, that will be used for detection.
 
 To construct the JSON file for the ensemble of prompts, the command is equivalent swapping `./build_hico.sh` for `./build_hico_ensemble.sh` and inserting as 4th argument the number of templates.
 
@@ -96,12 +96,86 @@ python map.py --model-name <model> --results-filepath ./results/<model>.json
 ```
 
 ### HICO-DET evaluation
+For Unknown setting computation, run the script:
+```
+cd src/evaluations/hico_det
+python evaluate_hico_det.py --model-name <model> --img-dir <your-data>/hico_20160224_det/images/test2015 --gt-filepath ../../../datasets/hico_det/gt.json --q-hoi-filepath ../../../datasets/hico_det/annotations/questions_per_hoi_<method>.json --output-filepath ./results/<model>_<method>.json --mode <method> --save-folderpath <your-data>/<method>/
+```
+
+where:
+* `--model-name`: The Hugging Face identifier of the model. Supported models are the same as HICO.
+* `--img-dir`: Folder directory where the images of HICO-DET are located.
+* `--gt-filepath`: Folder containing the ground truth detections. Only used for the list of images.
+* `--q-hoi-filepath`: JSON file with the list of questions depending on the HOI. This list should be changed based on the specification method used.
+* `--output-filepath`: Dump the predictions to the specified file.
+* `--mode`: Specification method used. Possibilites are `Baseline`, `Bboxes`, `Crop`, `Blur`, `Context`, `Gray`, `Black`, `Marker`, `Text_center`, `Text_boundary`, `Crop_black`, `Crop_blur`, and `Crop_context`. Default is `Baseline` (no specification method).
+* `--save-folderpath`: Folder to save the modified images in the specification cases that use visual input methods.
+
+For the executions using the ground truth bounding boxes (treating the problem as a classification problem with different object specification approaches), run the script:
+```
+cd src/evaluations/hico_det
+python evaluate_hico_det_gt_od.py --model-name <model> --img-dir <your-data>/hico_20160224_det/images/test2015 --gt-filepath ../../../datasets/hico_det/gt.json --q-hoi-filepath ../../../datasets/hico_det/annotations/questions_per_hoi_<method>.json --output-filepath ./results/<model>_<method>_gt.json --mode <method> --save-folderpath <your-data>/<method>/
+```
+
+where all parameters are equivalent to the default computation. To evaluate the performance of an experiment, run:
+```
+cd src/evaluations/hico_det
+python map_bbox.py --results-filepath ./results/<model>_<method>.json --gt-filepath ../../../datasets/hico_det/gt.json
+```
 
 ## 📊 Results
-[Include key results, figures, or tables from the paper.]
+### HOI recognition
+Our zero-shot approach leveraging MLLMs obtain superior results on HICO compared to partially zero-shot approaches.
+![image](./images/method_comparison.png)
+
+Computed results on HICO depending on the MLLM are:
+| Model                          | mAP    |
+| ------------------------------ | ------ |
+| MiniCPM-V                      | 48.20% |
+| MiniCPM-V 2                    | 47.48% |
+| InternVL2-1B                   | 40.58% |
+| InternVL2-2B                   | 38.64% |
+| Qwen2-VL 2B                    | 51.39% |
+| Qwen2-VL 7B                    | 52.89% |
+| LLaVA-OneVision 0.5B (OV)      | 46.15% |
+| LLaVA-OneVision 0.5B (SI)      | 44.61% |
+| Phi 3.5 Vision                 | 40.44% |
+| InternVL2.5-1B                 | 41.81% |
+| InternVL2.5-2B                 | 43.48% |
+| Ovis2-1B                       | 11.74% |
+| Ovis2-2B                       | 11.93% |
+| Qwen2.5-VL 3B                  | 45.67% |
+| InternVL2.5-1B MPO             | 41.82% |
+| InternVL2.5-2B MPO             | 12.22% |
+| DeepSeek-VL2 Tiny              | 44.13% |
+
+### HOI detection
+For object specification, we design Black Other Objects and Objects as In-Context Learning (ICL):
+![image](./images/method_examples.png)
+
+The remaining object specification methods are:
+![image](./images/object_specification.png)
+
+On HIO-DET, the comparison of methods return the following results:
+# MiniCPM-V indication approaches
+| Approach                     | mAP (MiniCPM-V) | mAP (Qwen2-VL) |
+| ---------------------------- | ------ | ------ |
+| Baseline                     | 20.78% | 20.00% |
+| Objects as ICL               | 22.17% | 20.56% |
+| Overlay Bounding Boxes       | 15.90% | 19.41% |
+| Crop                         | 20.96% | 18.46% |
+| Blur the Background          | 22.45% | 23.69% |
+| Gray the Background          | 19.59% | 19.65% |
+| Black Other Objects          | 22.43% | 23.01% |
+| Center Textual Coordinates   | 13.84% | 12.84% |
+| Boundary Textual Coordinates | 15.41% | 15.76% |
+| Overlay Elliptic Markers     | 17.70% | 19.86% |
+| Crop + Black Other Objects   | 21.99% | 21.34% |
+| Crop + Blur the Background   | 23.04% | 23.90% |
+| Crop + Context as ICL        | 21.90% | 20.53% |
 
 ## 📜 Citation
-If you use this code, please cite:
+If you use this work, please cite:
 
 @article{YourCitationKey,
   author    = {Author Name(s)},
@@ -116,6 +190,3 @@ If you use this code, please cite:
 
 ## 📜 License
 This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
-
-## 🤝 Acknowledgments
-[Mention any funding sources, collaborators, or datasets used.]
