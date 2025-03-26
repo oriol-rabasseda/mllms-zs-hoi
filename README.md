@@ -28,7 +28,6 @@ Multimodal Large Language Models (MLLMs) excel as zero-shot reasoners across div
             └── results
     └── models # MLLMs supported
 ├── requirements.txt # Dependencies
-├── images/ # Images of the README.md file
 ├── README.md # This file
 ├── LICENSE # License file
 ```
@@ -40,8 +39,6 @@ git clone https://github.com/oriol-rabasseda/mllms-zs-hoi.git
 cd mllms-zs-hoi
 pip install -r requirements.txt
 ```
-
-To use the FLOP estimator tool of MLLMs, please refer to https://github.com/oriol-rabasseda/vlm-complexity-calculation.
 
 ## 📥 Dataset Download
 The datasets used in this paper can be downloaded from: https://umich-ywchao-hico.github.io/. HICO version is 20150920 and HICO-DET version is 20160224.
