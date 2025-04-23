@@ -7,7 +7,7 @@ from bbox_utils import compute_iou
 
 rare_hoi = [77, 84, 169, 532, 78, 329, 587, 596, 215, 51, 408, 239, 137, 101, 182, 173, 189, 108, 400, 207, 550, 199, 551, 557, 486, 398, 402, 411, 365, 100, 382, 150, 166, 185, 437, 475, 193, 196, 28, 326, 23, 593, 582, 316, 255, 392, 483, 136, 521, 441, 318, 128, 597, 581, 552, 63, 536, 405, 256, 427, 452, 464, 470, 56, 105, 258, 9, 67, 391, 355, 527, 450, 280, 293, 440, 180, 548, 600, 432, 262, 518, 304, 417, 190, 206, 159, 81, 290, 261, 598, 275, 287, 230, 430, 404, 505, 500, 167, 359, 281, 312, 499, 45, 549, 540, 334, 399, 579, 223, 380, 64, 217, 282, 113, 547, 403, 515, 352, 510, 91, 240, 419, 428, 85, 228, 263, 335, 346, 351, 390, 406, 523, 553, 556, 561, 594, 71, 396]
 
-with open(with open('../../../datasets/hico_det/hoi_info.json', "r") as f:, "r") as f:
+with open('../../../datasets/hico_det/hoi_info.json', "r") as f:
     hoi_info = json.load(f)
 
 def get_ids(hoi_id):
@@ -76,6 +76,15 @@ def eval_hoi(hoi_id, global_ids, gt_dets, pred_dets):
             candidate_gt_dets = gt_dets[global_id][int(hoi_id)]
         else:
             candidate_gt_dets = []
+            '''
+            obj_found = False
+            for hoi_obj in obj_hois:
+                if int(hoi_obj) in gt_dets[global_id].keys():
+                    obj_found = True
+                    break
+            if not obj_found:
+                continue
+            '''
                 
         npos += len(candidate_gt_dets)
 

@@ -273,10 +273,10 @@ def main(model_name, img_dir, global_ids, qa_filepath, output_filepath, mode, sa
 def init_model(model_name) -> BaseModel:
     if "minicpm-v" in model_name.lower():
         return MiniCPM_V(model_name)
-    elif "qwen" in model_name.lower():
-        return Qwen2VLModel(model_name)
     elif "llava-onevision" in model_name.lower():
         return LLaVAOneVisionModel(model_name)
+    elif "qwen" in model_name.lower():
+        return Qwen2VLModel(model_name)
     elif "internvl2" in model_name.lower():
         return InternVL2Model(model_name)
     elif "phi" in model_name.lower():

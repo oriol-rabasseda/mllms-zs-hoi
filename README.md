@@ -1,9 +1,5 @@
-# Multimodal large Language Models for Zero-Shot Human-Object Interaction
+# Benchmarking Prompting Strategies for Zero-Shot Human-Object Interaction with Multimodal Large Language Models
 
-## 📄 Paper
-This repository contains the code and resources related to the paper:  
-
-**[Full Paper Title]**  
 [Author(s)]  
 [Conference/Journal Name, Year]  
 [Link to paper (arXiv, DOI, or conference page)]  
@@ -11,7 +7,7 @@ This repository contains the code and resources related to the paper:
 If you find this work useful, please cite it using the reference below.  
 
 ## 📌 Abstract
-Multimodal Large Language Models (MLLMs) excel as zero-shot reasoners across diverse domains. However, their application to real-world classification tasks, particularly in direct comparison with specialized models, remains underexplored. This work explores how MLLMs can be leveraged for zero-shot Human-Object Interaction (HOI) recognition and detection using token probability outputs. We first benchmark lightweight MLLMs, identifying Qwen2-VL and MiniCPM-V as the most effective families. We then propose a comprehensive taxonomy of zero-shot strategies, integrating textual prompting methods and visual prompting techniques. For HOI detection, we develop Objects as In-Context Learning (ICL) and Black Other Objects methods for object specification. Evaluations on HICO dataset reveal that Objects as ICL boosts performance for multi-image-capable MLLMs, while ensembling text prompts enhances robustness. On HICO-DET, Objects as ICL, Black Other Objects, and Blur the Background emerge as superior visual prompting methods for localization. Our approach achieves 53.50 mAP on HICO and 23.69 mAP on HICO-DET, outperforming prior zero-shot methods and approaching the performance of certain supervised models.
+Multimodal Large Language Models (MLLMs) excel as zero-shot reasoners across diverse domains. However, their application to real-world classification tasks, particularly in direct comparison with specialized models, remains underexplored. This work explores how MLLMs can be leveraged for zero-shot Human-Object Interaction (HOI) recognition and detection using token probability outputs. We first benchmark lightweight MLLMs, identifying Qwen2-VL and MiniCPM-V as the most effective families for HOI. We perform a comprehensive comparison of zero-shot strategies applicable to this task. To contrast them, a taxonomy of zero-shot approaches is proposed, integrating textual and visual prompting strategies. Evaluations in the HICO and V-COCO datasets reveal that Objects as Context boosts performance for multi-image-capable MLLMs, while ensembling text prompts enhances robustness. In HICO-DET, Objects as Context, Black Other Objects, and Blur the Background emerge as superior visual prompting methods for object specification. Our approach achieves 53.50 mAP on HICO and 23.69 mAP on HICO-DET, outperforming prior zero-shot methods and approaching the performance of certain supervised models.
 
 ## 📂 Repository Structure
 ```
@@ -20,11 +16,14 @@ Multimodal Large Language Models (MLLMs) excel as zero-shot reasoners across div
         └── annotations
     └── hico_det
         └── annotations
+    └── v-coco
 ├── src/ # Source code for experiments
     └── evaluations
         └── hico
             └── results
         └── hico_det
+            └── results
+        └── v-coco
             └── results
     └── models # MLLMs supported
 ├── images/ # Images of the README.md file
@@ -44,7 +43,8 @@ pip install -r requirements.txt
 To use the FLOP estimator tool of MLLMs, please refer to https://github.com/oriol-rabasseda/vlm-complexity-calculation.
 
 ## 📥 Dataset Download
-The datasets used in this paper can be downloaded from: https://umich-ywchao-hico.github.io/. HICO version is 20150920 and HICO-DET version is 20160224.
+The versions of HICO and HICO-DET used in this paper can be downloaded from https://umich-ywchao-hico.github.io/. HICO version is 20150920 and HICO-DET version is 20160224.
+For V-COCO, the dataset and its annotations can be downloaded from https://cocodataset.org/#download. The COCO version used is val2014 (since only the test set is necessary).
 
 After downloading, unzip and place the dataset in `<your-data>` directory.
 
@@ -61,6 +61,13 @@ where `<mode>` should be substitued by `OD`, `GT`, or `MLLM` depending on the st
 
 To construct the JSON file for the ensemble of prompts, the command is equivalent swapping `./build_hico.sh` for `./build_hico_ensemble.sh` and inserting as 4th argument the number of templates.
 
+To use object detectors from MMDet (https://github.com/open-mmlab/mmdetection), run the script:
+```
+cd datasets/hico
+./build_hico_mmdet.sh <your-data>/hico_20150920/anno.mat <your-data>/hico_20150920/images/test2015 <model>
+```
+where model must be a supported model from MMDet (e.g. `dino-5scale_swin-l_8xb2-12e_coco`).
+
 ### HICO-DET pre-processing
 Run the script:
 ```
@@ -68,7 +75,22 @@ cd datasets/hico_det
 python possible_questions.py
 ```
 
-Similar for `possible_questions_bbox`, `possible_questions_blur`, `possible_questions_gray`, and `possible_questions_marker`.
+Similar for `possible_questions_bbox.py`, `possible_questions_blur.py`, `possible_questions_gray.py`, and `possible_questions_marker.py`.
+
+### V-COCO pre-processing
+The official code of V-COCO (https://github.com/s-gupta/v-coco) is embedded in this project due to slight modifications. To create the set of questions for each possible HOI obtained from the trainval dataset, run the script:
+```
+cd datasets/v-coco
+python possible_questions.py
+```
+
+Similar for `possible_questions_bbox.py`, `possible_questions_blur.py`, `possible_questions_gray.py`, and `possible_questions_marker.py`.
+
+To obtain the ground truth labels in the required format, run the script:
+```
+cd datasets/v-coco
+python test_structure.py
+```
 
 ## 🏗️ Usage
 ### HICO evaluation
@@ -86,7 +108,7 @@ cd src/evaluations/hico
 python evaluate_hico_<method>.py --model-name <model> --img-dir <your-data>/hico_20150920/images/test2015 --qa-filepath ../../../datasets/hico/annotations/hico_qa_test_unknown_od.json --output-filepath ./results/<method>/<model>.json
 ```
 
-where `<method>` can be `caption`, `cot`, or `objects_icl`; and `<model>` supported are MiniCPM-V and Qwen2-VL families. For ensemble methods, run the script:
+where `<method>` can be `caption`, `cot`, or `objects_context`; and `<model>` supported are MiniCPM-V and Qwen2-VL families. For ensemble methods, run the script:
 ```
 cd src/evaluations/hico
 python evaluate_hico_ensemble.py --model-name <model> --img-dir <your-data>/hico_20150920/images/test2015 --qa-filepath ../../../datasets/hico/annotations/Ensemble/<num_templates>/hico_qa_test_unknown_od.json --output-filepath ./results/Ensemble/<num_templates>/<model>.json
@@ -95,7 +117,7 @@ python evaluate_hico_ensemble.py --model-name <model> --img-dir <your-data>/hico
 To evaluate the results obtained by an experiment, run:
 ```
 cd src/evaluations/hico
-python map.py --model-name <model> --results-filepath ./results/<model>.json
+python map.py --results-filepath ./results/<model>.json
 ```
 
 ### HICO-DET evaluation
@@ -124,6 +146,28 @@ where all parameters are equivalent to the default computation. To evaluate the 
 ```
 cd src/evaluations/hico_det
 python map_bbox.py --results-filepath ./results/<model>_<method>.json --gt-filepath ../../../datasets/hico_det/gt.json
+```
+
+### V-COCO evaluation
+Run the script:
+```
+cd src/evaluations/v-coco
+python evaluate_vcoco.py --model-name <model> --img-dir <your-data>/val2014 --gt-filepath ../../../datasets/v-coco/annotations/test.pickle --q-hoi-filepath ../../../datasets/v-coco/annotations/questions_per_hoi_<method>.json --output-filepath ./results/<model>_<method>.json --mode <method> --save-folderpath <your-data>/<method>/
+```
+
+where:
+* `--model-name`: The Hugging Face identifier of the model. Supported models are the same as HICO.
+* `--img-dir`: Folder directory where the images of HICO-DET are located.
+* `--gt-filepath`: Folder containing the ground truth detections. Only used for the list of images.
+* `--q-hoi-filepath`: JSON file with the list of questions depending on the HOI. This list should be changed based on the specification method used.
+* `--output-filepath`: Dump the predictions to the specified file.
+* `--mode`: Specification method used. Possibilites are `Baseline`, `Bboxes`, `Crop`, `Blur`, `Context`, `Gray`, `Black`, `Marker`, `Text_center`, `Text_boundary`, `Crop_black`, `Crop_blur`, and `Crop_context`. Default is `Baseline` (no specification method).
+* `--save-folderpath`: Folder to save the modified images in the specification cases that use visual input methods.
+
+To evaluate the performance of an experiment, run:
+```
+cd src/datasets/v-coco
+python map.py --results-filepath ./results/<model>_<method>.json
 ```
 
 ## 📊 Results
@@ -159,33 +203,39 @@ For object specification, we design Black Other Objects and Objects as In-Contex
 The remaining object specification methods are:
 ![image](./images/object_specification.png)
 
-On HICO-DET, the comparison of methods return the following results:
+On HICO-DET, the comparison of methods using the default evalation approach return the following results:
 | Approach                     | mAP (MiniCPM-V) | mAP (Qwen2-VL) |
+| ---------------------------- | ----- | ----- |
+| Baseline                     | 20.78 | 20.00 |
+| Objects as Context           | 22.17 | 20.56 |
+| Overlay Bounding Boxes       | 15.90 | 19.41 |
+| Crop                         | 20.96 | 18.46 |
+| Blur the Background          | 22.45 | 23.69 |
+| Gray the Background          | 19.59 | 19.65 |
+| Black Other Objects          | 22.43 | 23.01 |
+| Center Textual Coordinates   | 13.84 | 12.84 |
+| Boundary Textual Coordinates | 15.41 | 15.76 |
+| Overlay Elliptic Markers     | 17.70 | 19.86 |
+| Crop + Black Other Objects   | 21.99 | 21.34 |
+| Crop + Blur the Background   | 23.04 | 23.90 |
+| Crop + Context as Context    | 21.90 | 20.53 |
+
+On V-COCO, results obtained are:
+| Approach                     | S1 (MiniCPM-V) | S1 (Qwen2-VL) | S2 (MiniCPM-V) | S2 (Qwen2-VL) |
 | ---------------------------- | ------ | ------ |
-| Baseline                     | 20.78% | 20.00% |
-| Objects as ICL               | 22.17% | 20.56% |
-| Overlay Bounding Boxes       | 15.90% | 19.41% |
-| Crop                         | 20.96% | 18.46% |
-| Blur the Background          | 22.45% | 23.69% |
-| Gray the Background          | 19.59% | 19.65% |
-| Black Other Objects          | 22.43% | 23.01% |
-| Center Textual Coordinates   | 13.84% | 12.84% |
-| Boundary Textual Coordinates | 15.41% | 15.76% |
-| Overlay Elliptic Markers     | 17.70% | 19.86% |
-| Crop + Black Other Objects   | 21.99% | 21.34% |
-| Crop + Blur the Background   | 23.04% | 23.90% |
-| Crop + Context as ICL        | 21.90% | 20.53% |
+| Baseline                     | 19.95 | 17.28 | 21.98 | 19.19 |
+| Objects as Context           | 21.46 | 18.03 | 23.09 | 19.95 |
+| Overlay Bounding Boxes       | 5.65  | 6.70  | 6.11  | 7.14  |
+| Crop                         | 23.70 | 19.19 | 26.16 | 21.81 |
+| Blur the Background          | 24.82 | 32.27 | 26.86 | 34.93 |
+| Gray the Background          | 7.18  | 11.05 | 7.73  | 11.79 |
+| Black Other Objects          | 26.16 | 22.89 | 28.56 | 25.17 |
+| Center Textual Coordinates   | 6.29  | 4.95  | 6.64  | 6.03  |
+| Boundary Textual Coordinates | 13.38 | 18.07 | 15.16 | 20.60 |
+| Overlay Elliptic Markers     | 5.94  | 5.31  | 6.24  | 5.53  |
+| Crop + Black Other Objects   | 25.46 | 21.33 | 27.91 | 23.72 |
+| Crop + Blur the Background   | 24.47 | 31.66 | 26.38 | 34.12 |
+| Crop + Context as Context    | 22.87 | 20.18 | 24.79 | 22.61 |
 
 ## 📜 Citation
 If you use this work, please cite:
-
-@article{YourCitationKey,
-  author    = {Author Name(s)},
-  title     = {Paper Title},
-  journal   = {Journal/Conference Name},
-  year      = {YYYY},
-  volume    = {XX},
-  number    = {X},
-  pages     = {XX-XX},
-  doi       = {DOI or link}
-}

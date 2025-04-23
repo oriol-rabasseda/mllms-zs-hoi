@@ -18,9 +18,8 @@ class LLaVAOneVisionModel(BaseModel):
             model_path,
             torch_dtype=torch.float16,
             low_cpu_mem_usage=True,
-            device_map='cuda:2',
-            attn_implementation='flash_attention_2',
-            #max_memory={0: "5GB", 1: "8GB", 2: "8GB"}
+            device_map='auto',
+            attn_implementation='flash_attention_2'
             )
         self.core_model.eval()  # Set the model in eval mode explicitly even though not needed
         self.processor = AutoProcessor.from_pretrained(model_path)
@@ -51,7 +50,7 @@ class LLaVAOneVisionModel(BaseModel):
         # Preprocess the inputs
         text_prompt = self.processor.apply_chat_template(messages, add_generation_prompt=True)
 
-        inputs = self.processor(images=images, text=text_prompt, return_tensors='pt').to('cuda:2', torch.float16)
+        inputs = self.processor(images=images, text=text_prompt, return_tensors='pt').to('cuda', torch.float16)
 
         generation_config = dict(max_new_tokens=1, do_sample=False)
         generation_config['num_beams'] = 1

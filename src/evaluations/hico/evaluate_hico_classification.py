@@ -13,7 +13,7 @@ from models.llava_onevision_model import LLaVAOneVisionModel
 from models.phi_model import PhiVisionModel
 from models.internvl2 import InternVL2Model
 from models.ovis2_model import Ovis2Model
-from models.deepseekvl2 import DeepseekVL2Model
+#from models.deepseekvl2 import DeepseekVL2Model
 from models.base_model import BaseModel
 
 def main(model_name, img_dir, qa_filepath, output_filepath) -> None:
@@ -86,18 +86,18 @@ def main(model_name, img_dir, qa_filepath, output_filepath) -> None:
 def init_model(model_name) -> BaseModel:
     if "minicpm-v" in model_name.lower():
         return MiniCPM_V(model_name)
-    elif "qwen" in model_name.lower():
-        return Qwen2VLModel(model_name)
     elif "llava-onevision" in model_name.lower():
         return LLaVAOneVisionModel(model_name)
+    elif "qwen" in model_name.lower():
+        return Qwen2VLModel(model_name)
     elif "internvl2" in model_name.lower():
         return InternVL2Model(model_name)
     elif "phi" in model_name.lower():
         return PhiVisionModel(model_name)
     elif "ovis" in model_name.lower():
         return Ovis2Model(model_name)
-    elif "deepseek-vl2" in model_name.lower():
-        return DeepseekVL2Model(model_name)
+#    elif "deepseek-vl2" in model_name.lower():
+#        return DeepseekVL2Model(model_name)
     else:
         raise NotImplementedError
 

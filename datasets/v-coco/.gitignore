@@ -1,0 +1,5 @@
+coco-data
+bbox.c
+*.so
+*.pyc
+annotations
