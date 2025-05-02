@@ -222,7 +222,7 @@ On HICO-DET, the comparison of methods using the default evalation approach retu
 
 On V-COCO, results obtained are:
 | Approach                     | S1 (MiniCPM-V) | S1 (Qwen2-VL) | S2 (MiniCPM-V) | S2 (Qwen2-VL) |
-| ---------------------------- | ------ | ------ |
+| ---------------------------- | ------ | ------ | ------ | ------ |
 | Baseline                     | 19.95 | 17.28 | 21.98 | 19.19 |
 | Objects as Context           | 21.46 | 18.03 | 23.09 | 19.95 |
 | Overlay Bounding Boxes       | 5.65  | 6.70  | 6.11  | 7.14  |
